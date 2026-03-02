@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Apkgosu - Game</title>
+<style>
+:root {
+    --bg: #0f172a;
+    --card: #1e293b;
+    --accent: #38bdf8;
+    --text: #e2e8f0;
+    --muted: #94a3b8;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg, #0f172a, #020617);
+    color: var(--text);
+    display: flex;
+    justify-content: center;
+    padding: 40px 20px;
+}
+
+.container {
+    width: 100%;
+    max-width: 700px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.link-grid {
+    display: grid;
+    gap: 15px;
+}
+
+.link-card {
+    background: var(--card);
+    padding: 16px 20px;
+    border-radius: 14px;
+    transition: 0.25s ease;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    color: var(--text);
+    border: 1px solid transparent;
+}
+
+.link-card:hover {
+    transform: translateY(-4px);
+    border: 1px solid var(--accent);
+    box-shadow: 0 10px 25px rgba(56,189,248,0.2);
+}
+
+.link-name {
+    font-size: 16px;
+}
+
+.link-url {
+    font-size: 13px;
+    color: var(--muted);
+}
+
+.footer {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 12px;
+    color: var(--muted);
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+    <h1>🚀 List Tài Nguyên</h1>
+    <div class="link-grid" id="linkList"></div>
+    <div class="footer">© 2026 Mario-Game.fun All rights reserved.</div>
+</div>
+
+<script>
+const links = [
+    { name: "Action Game", url: "https://mario-game-fun.github.io/apkgosu/action" }
+];
+
+const list = document.getElementById("linkList");
+
+links.forEach(link => {
+    const a = document.createElement("a");
+    a.href = link.url;
+    a.target = "_blank";
+    a.className = "link-card";
+
+    a.innerHTML = `
+        <div>
+            <div class="link-name">${link.name}</div>
+            <div class="link-url">${link.url}</div>
+        </div>
+        <div>→</div>
+    `;
+
+    list.appendChild(a);
+});
+</script>
+
+</body>
+</html>
