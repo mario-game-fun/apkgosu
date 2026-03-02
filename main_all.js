@@ -30,6 +30,7 @@ async function loadFolders(path, containerId) {
             
             // Link ảnh logo
             const imgUrl = path_git + item.path + "/logo.webp";
+            const videoUrl = path_git + item.path + "/thumbnail.3x3.h264.mp4";
             // Link folder
             const fullPath = path_git + item.path;
 
@@ -37,7 +38,7 @@ async function loadFolders(path, containerId) {
                 <img class="folder-thumb" src="${imgUrl}" alt="${item.name}">
                 <div class="folder-name"><b>${item.name}</b></div>
                 <div class="folder-actions">
-                    <button class="btn-copy-name">Tên</button>
+                    <button class="btn-copy-name">Video</button>
                     <button class="btn-copy-img">Ảnh</button>
                     <button class="btn-copy-path">Path</button>
                 </div>
@@ -46,8 +47,8 @@ async function loadFolders(path, containerId) {
             // Nút 1: Copy tên (item.name)
             card.querySelector(".btn-copy-name").onclick = (e) => {
                 e.stopPropagation(); // Ngăn sự kiện nổi bọt nếu có
-                navigator.clipboard.writeText(item.name);
-                showToast("Đã copy tên: " + item.name);
+                navigator.clipboard.writeText(videoUrl);
+                showToast("Đã copy video: " + videoUrl);
             };
 
             // Nút 2: Copy link ảnh (logo.webp)
