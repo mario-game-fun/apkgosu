@@ -1,0 +1,10 @@
+
+<meta name="robots" content="noindex, nofollow">
+
+	<script src="https://www.apkgosu.fun/ad/sdk/codea.js"></script>
+	<script src="https://www.apkgosu.fun/ad/sdk/sdk.js"></script>
+
+    https://www.apkgosu.fun/ad/sdk/sdk.js
+
+	aHR0cHM6Ly9wb2tpLmNvbS9zaXRlbG9jaw==
+	LnBva2ktZ2RuLmNvbQ==
