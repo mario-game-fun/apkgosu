@@ -1,0 +1,20 @@
+body {
+
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+
+	
+	background: linear-gradient(#138e1c, #08370b);
+	
+	/*background-image: url("pozadina_menija/background_extra.jpg"); - ukinuto kao ogromna*/
+	
+	 background-position: center; 
+ 	 background-repeat: no-repeat;
+ 	 background-size: cover;
+	
+
+}

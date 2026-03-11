@@ -1,6 +1,8 @@
 
 <meta name="robots" content="noindex, nofollow">
-
+	<script src="https://www.apkgosu.fun/ad/sdk/codea.js"></script>
+	
+<meta name="robots" content="noindex, nofollow">
 	<script src="https://www.apkgosu.fun/ad/sdk/codea.js"></script>
 	<script src="https://www.apkgosu.fun/ad/sdk/sdk.js"></script>
 
