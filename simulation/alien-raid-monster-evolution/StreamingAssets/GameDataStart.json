@@ -1,0 +1,86 @@
+{
+  "Player": {
+    "CurrentLevel": 1,
+    "Money": 0,
+    "WalkSpeed": 10,
+    "PickUpRadius": 1,
+    "MaxGetCount": 3,
+    "CurrentBuildMonster": 0,
+    "CurrentBuildMonsterCostID": 0,
+    "HumanBaseHealth": 100
+  },
+  "Assistent": {
+    "Assistent_1": {
+      "activeID": 0,
+      "levelUpgrde": 0
+    },
+    "Assistent_2": {
+      "activeID": 0,
+      "levelUpgrde": 0
+    },
+    "Assistent_3": {
+      "activeID": 0,
+      "levelUpgrde": 0
+    }
+  },
+  "Upgrade": {
+    "Capacity": {
+      "Level": 0
+    },
+    "Radius": {
+      "Level": 0
+    },
+    "Speed": {
+      "Level": 0
+    }
+  },
+  "AssistentCathc": {
+    "Assistent_1": {
+      "activeID": 0,
+      "levelUpgrde": 0
+    }
+  },
+  "AssistentCathcMonster": {
+    "activeID": 0,
+    "isActiveInLevel": 0
+  },
+  "MonsterBuilder": {
+    "PartHeadCount": 0,
+    "PartBodyCount": 0,
+    "PartMetalCount": 0
+  },
+  "Conveyers": {
+    "Conveyer_1": {
+      "GetPointCount": 0,
+      "SetPointCount": 0
+    },
+    "Conveyer_2": {
+      "GetPointCount": 0,
+      "SetPointCount": 0
+    },
+    "Conveyer_3": {
+      "GetPointCount": 0,
+      "SetPointCount": 0
+    }
+  },
+  "Boosters": {
+    "Speed": {
+      "ActiveID": 0,
+      "StartTimeCount": 2,
+      "Timer": 0,
+      "EndTime": 0
+    },
+    "Capacity": {
+      "ActiveID": 0,
+      "StartTimeCount": 2,
+      "Timer": 0,
+      "EndTime": 0
+    },
+    "Shield": {
+      "ActiveID": 0,
+      "StartTimeCount": 2,
+      "Timer": 0,
+      "EndTime": 0
+    }
+  }
+}
