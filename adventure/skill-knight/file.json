@@ -1,0 +1,38 @@
+{
+	"Craft" : {
+        "Arrow":{
+            "Needed" : [{"Resource" : "Wood", "Amount" : 3},
+                        {"Resource" : "Leaf", "Amount" : 5}],
+            "CraftTime" : 1,
+            "Reward" : "Arrow"
+        },
+        "Potion":{
+            "Needed" : [{"Resource" : "Leaf", "Amount" : 5},
+                        {"Resource" : "Mushroom", "Amount" : 5}],
+            "CraftTime" : 3,
+            "Reward" : "Potion"
+        },
+         "IronBar":{
+            "Needed" : [{"Resource" : "Wood", "Amount" : 2},
+                        {"Resource" : "Iron", "Amount" : 3}],
+            "CraftTime" : 4,
+            "Reward" : "IronBar"
+        },
+         "Fish":{
+            "Needed" : [{"Resource" : "Worm", "Amount" : 1}],
+            "CraftTime" : 5,
+            "Reward" : "Fish"
+        },
+         "Shield":{
+            "Needed" : [{"Resource" : "IronBar", "Amount" : 2}],
+            "CraftTime" : 5,
+            "Reward" : "Shield"
+        },
+        "IronBar2":{
+            "Needed" : [{"Resource" : "Wood", "Amount" : 2},
+                        {"Resource" : "Iron2", "Amount" : 3}],
+            "CraftTime" : 5,
+            "Reward" : "IronBar2"
+        }
+    }
+}
