@@ -1,0 +1,46 @@
+plan(4,2,4)
+planpos(120)
+
+// Team Colors
+shirt1(6,11,7)
+shirt2(17,11,7)
+short(160,9,5)
+socks(6,11,7)
+shoes(6,10,9)
+
+clash-shirt1(12,3,18)
+clash-shirt2(144,5,18)
+clash-short(242,11,5)
+clash-socks(242,11,5)
+clash-shoes(242,3,3)
+
+
+// Keeper
+keeper-shirt(135,11,10)
+keeper-gloves(149,8,4)
+keeper-socks(146,11,9)
+keeper-shoes(6,10,9)
+
+stadshirt(6,11,10)
+
+// Formation: 4-3-2-1
+
+/// ATTACK
+newplayer(9,6,2,28,5) // Lamine Yamal - RW
+newplayer(8,9,2,27,2) // Álvaro Morata - ST
+newplayer(7,4,3,27,2) // Nico Williams - LW
+newplayer(5,10,2,29,5) // Dani Olmo - CAM
+
+// MIDFIELD
+newplayer(6,8,1,27,2) // Rodri - RCM
+newplayer(4,9,2,27,2) // Pedri - LCM
+
+// DEFENSE
+newplayer(3,10,1,27,2) // Dani Carvajal - RB
+newplayer(2,10,2,27,2) // Aymeric Laporte - CB
+playercopy(1,2) // Robin Le Normand - CB
+newplayer(0,4,2,27,2) // Alejandro Balde - LB
+
+keeper(9,1,27,2) // Unai Simón
+
+

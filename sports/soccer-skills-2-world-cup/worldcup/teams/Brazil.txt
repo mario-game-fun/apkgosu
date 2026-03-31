@@ -1,0 +1,47 @@
+plan(4,3,3) //historically 4-2-4, now maybe 4-2-3-1 
+planpos(-120)
+
+// Team Colors
+shirt1(39,10,10) //yellow
+shirt2(39,10,10)
+short(148,10,5) //blue
+socks(50,5,20)
+shoes(50,10,10)
+
+clash-shirt1(158,9,7) 
+clash-shirt2(158,9,7)
+clash-short(123,9,9) 
+clash-socks(158,9,7)
+clash-shoes(123,5,20)
+
+
+// Keeper
+keeper-shirt(76,10,10) //blackish with grey design 
+keeper-gloves(83,5,1)
+keeper-socks(90,10,10)
+keeper-shoes(50,10,10)
+
+
+stadshirt(39,10,10)
+
+
+// Formation: 4-3-2-1
+
+// ATTACKERS
+newplayer(9,4,1,27,1) // Rodrygo
+newplayer(8,3,2,27,1) // Vinícius Júnior 
+newplayer(7,5,1,27,2) // Raphinha 
+
+// MIDFIELD
+newplayer(6,6,1,27,2) // Casemiro 
+newplayer(5,7,1,27,2) // Bruno Guimarães 
+newplayer(4,7,2,27,3) // Neymar Jr. (as false 10, usually not in his old attack position) or if he can't play due to his injury: young Endrick could replace him
+
+// DEFENSE
+newplayer(3,5,4,27,1) // Marquinhos 
+newplayer(2,4,1,27,1) // Gabriel Magalhães 
+newplayer(1,6,1,27,2) // Danilo Luiz da Silva 
+playercopy(0,1) // Renan Lodi 
+
+keeper(10,2,27,2) // Alisson Becker 
+

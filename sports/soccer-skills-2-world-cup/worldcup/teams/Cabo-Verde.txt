@@ -1,0 +1,49 @@
+plan(4,2,4)
+planpos(40)
+
+// Team Colors
+shirt1(154,9,5)
+shirt2(154,9,5)
+short(154,9,9)
+socks(154,9,6)
+shoes(252,2,1)
+
+clash-shirt1(0,10,7)
+clash-shirt2(0,10,7)
+clash-short(154,9,5)
+clash-socks(0,0,17)
+clash-shoes(154,1,1)
+
+
+// Keeper
+keeper-shirt(244,9,18)
+keeper-gloves(244,2,20)
+keeper-socks(244,9,18)
+keeper-shoes(244,2,20)
+
+
+stadshirt(154,9,5)
+
+
+// Formation: 4-2-3-1
+
+// ATTACK
+newplayer(9,4,1,27,1) // Jovane Cabral - RW
+newplayer(8,5,1,27,1) // Bebé - ST
+newplayer(7,4,1,27,1) // Garry Rodrigues - LW
+newplayer(5,3,1,27,1) // Jamiro Monteiro - central attacking midfielder
+
+// MIDFIELD
+newplayer(6,5,1,27,1) // Kenny Rocha Santos - RCM
+newplayer(4,4,1,27,1) // Patrick Andrade - LCM
+
+// DEFENSE
+newplayer(3,4,1,27,1) // Steven Fortes - RB
+newplayer(2,3,2,27,1) // Logan Costa - CB
+newplayer(1,3,2,27,1) // Stopira - CB (red hair?!)
+newplayer(0,2,4,27,1) // João Paulo - LB
+
+// KEEPER
+keeper(4,2,27,1) // Vozinha (Josimar Dias)
+
+

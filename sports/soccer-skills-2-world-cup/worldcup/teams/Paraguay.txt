@@ -1,0 +1,46 @@
+plan(4,3,3)
+planpos(-70)
+
+// Team Colors
+shirt1(254,10,12)
+shirt2(254,7,20)
+short(156,10,5) //or white (0,0,19)
+socks(156,10,7)
+shoes(156,6,4)
+
+clash-shirt1(156,9,11) //if too similar maybe black? couldn't find anything official
+clash-shirt2(156,9,8)
+clash-short(156,10,4)
+clash-socks(156,10,4)
+clash-shoes(156,6,4)
+
+
+// Keeper
+keeper-shirt(59,10,7)
+keeper-gloves(59,1,2)
+keeper-socks(59,10,10)
+keeper-shoes(59,6,19)
+
+stadshirt(254,10,12)
+
+// Formation: 4-2-3-1
+
+// ATTACK
+newplayer(9,7,1,27,1) // Miguel Almirón
+newplayer(8,8,1,27,1) // Antonio Sanabria
+newplayer(7,10,2,29,10) // Julio Enciso
+newplayer(5,9,2,27,1) // Mathías Villasanti
+
+// MIDFIELD
+newplayer(6,8,2,27,2) // Andrés Cubas
+newplayer(4,7,2,27,2) // Richard Sánchez
+
+// DEFENSE
+newplayer(3,7,1,27,1) // Juan José Cáceres
+newplayer(2,9,2,27,2) // Fabián Balbuena
+newplayer(1,8,2,27,2) // Gustavo Gómez
+newplayer(0,7,1,27,2) // Júnior Alonso
+
+// KEEPER
+keeper(8,2,27,2) // Carlos Coronel
+

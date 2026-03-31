@@ -1,0 +1,45 @@
+plan(4,2,4)
+planpos(100)
+
+// Team Colors
+shirt1(253,9,8)
+shirt2(253,9,7)
+short(107,10,3)
+socks(253,9,7)
+shoes(107,3,17)
+
+clash-shirt1(107,1,19)
+clash-shirt2(107,8,17)
+clash-short(107,10,3)
+clash-socks(107,10,3)
+clash-shoes(253,6,12)
+
+
+// Keeper
+keeper-shirt(144,10,12)
+keeper-gloves(107,3,4)
+keeper-socks(144,10,9)
+keeper-shoes(107,3,18)
+
+stadshirt(253,9,8)
+
+// Formation: 4-2-4
+
+// ATTACKERS
+newplayer(9,9,1,27,2) // Hakim Ziyech
+newplayer(8,7,1,27,2) // Youssef En-Nesyri
+newplayer(7,7,2,27,4) // Sofiane Boufal
+newplayer(6,7,1,27,2) // Amine Harit
+
+// MIDFIELD
+newplayer(5,7,0,27,4) // Sofyan Amrabat
+newplayer(4,7,2,27,2) // Azzedine Ounahi
+
+// DEFENSE
+newplayer(3,8,1,27,2) // Achraf Hakimi
+newplayer(2,8,2,27,2) // Nayef Aguerd
+newplayer(1,8,1,27,2) // Romain Saïss
+newplayer(0,9,1,27,2) // Noussair Mazraoui
+
+keeper(8,2,27,2) // Bono
+

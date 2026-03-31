@@ -1,0 +1,46 @@
+plan(4,2,4)
+planpos(55)
+
+// Team Colors
+shirt1(16,10,10)
+shirt2(63,10,9) //111
+short(16,10,10)
+socks(16,10,10)
+shoes(16,4,20)
+
+clash-shirt1(16,2,18)
+clash-shirt2(111,10,6)
+clash-short(16,2,18)
+clash-socks(16,2,18)
+clash-shoes(111,10,2)
+
+
+// Keeper
+keeper-shirt(140,10,9)
+keeper-gloves(140,2,2)
+keeper-socks(140,10,11)
+keeper-shoes(140,5,17)
+
+stadshirt(16,10,10)
+
+// Formation: 4-2-3-1
+
+// ATTACK
+newplayer(9,3,1,27,1) // Nicolas Pépé - RW
+newplayer(8,4,1,27,1) // Sébastien Haller - ST
+newplayer(7,3,2,27,2) // Simon Adingra - LW
+newplayer(5,3,1,27,1) // Jean Michaël Seri - CAM
+
+// MIDFIELD
+newplayer(6,3,4,27,1) // Franck Kessié - RCM
+newplayer(4,3,0,27,3) // Seko Fofana - LCM
+
+// DEFENSE
+newplayer(3,3,1,27,1) // Wilfried Singo - RB
+newplayer(2,3,1,27,1) // Evan Ndicka - CB
+newplayer(1,2,3,27,2) // Odilon Kossounou - CB
+newplayer(0,3,1,27,1) // Ghislain Konan - LB
+
+keeper(3,1,27,1) // Yahia Fofana
+
+

@@ -1,0 +1,46 @@
+plan(4,2,4)
+planpos(-80)
+
+// Team Colors
+shirt1(95,2,19)
+shirt2(95,7,16)
+short(95,2,19)
+socks(95,2,19)
+shoes(0,4,17)
+
+clash-shirt1(95,9,7)
+clash-shirt2(95,9,7)
+clash-short(0,9,7)
+clash-socks(95,2,19)
+clash-shoes(0,4,17)
+
+
+// Keeper
+keeper-shirt(22,10,10)
+keeper-gloves(0,3,20)
+keeper-socks(22,10,10)
+keeper-shoes(0,4,17)
+
+stadshirt(95,3,18)
+
+// Formation: 4-2-3-1
+
+// ATTACKERS
+newplayer(8,8,2,27,3) // Mehdi Taremi 
+newplayer(9,10,2,27,2) // Sardar Azmoun 
+newplayer(7,9,1,27,2) // Alireza Jahanbakhsh 
+newplayer(5,8,2,27,2) // Ahmad Nourollahi 
+
+// MIDFIELD
+newplayer(6,8,2,27,2) // Saeid Ezatolahi 
+newplayer(4,7,2,27,2) // Mehdi Torabi 
+
+// DEFENSE
+newplayer(3,8,2,27,2) // Hossein Kanani
+playercopy(2,3) // Shoja Khalilzadeh 
+newplayer(1,8,1,27,2) // Ehsan Hajsafi 
+newplayer(0,9,2,27,2) // Sadegh Moharrami 
+
+keeper(8,1,27,2) // Alireza Beiranvand 
+
+

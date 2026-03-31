@@ -1,0 +1,46 @@
+plan(4,3,3)
+planpos(-80)
+
+// Team Colors
+shirt1(2,9,9)
+shirt2(2,9,9)
+short(2,9,10)
+socks(2,9,9)
+shoes(2,2,3)
+
+clash-shirt1(62,9,16) //Liquid Lime
+clash-shirt2(62,7,17)
+clash-short(62,9,16)
+clash-socks(62,9,16)
+clash-shoes(187,7,18) //Methyst Tint
+
+
+// Keeper
+keeper-shirt(133,10,11)
+keeper-gloves(2,9,11)
+keeper-socks(133,10,9)
+keeper-shoes(2,5,3)
+
+stadshirt(2,9,9)
+
+// Formation: 4-2-3-1
+
+// ATTACK
+newplayer(9,9,2,27,1) // Lee Kang-in - RW
+playercopy(8,9) // Cho Gue-sung - ST
+playercopy(7,9) // Son Heung-min - LW
+newplayer(5,8,1,27,1) // Hwang Hee-chan - CAM
+
+// MIDFIELD
+playercopy(6,9) // Hwang In-beom - RCM
+newplayer(4,7,2,28,4) // Jung Woo-young - LCM
+
+// DEFENSE
+playercopy(3,9) // Kim Moon-hwan - RB
+newplayer(2,8,2,27,2) // Kim Min-jae - CB
+newplayer(1,7,2,27,3) // Jung Seung-hyun - CB
+newplayer(0,9,1,27,3) // Kim Jin-su - LB
+
+keeper(9,2,28,4) // Jo Hyeon-woo
+
+

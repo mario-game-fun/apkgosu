@@ -1,0 +1,48 @@
+plan(4,3,3)
+planpos(-77)
+
+// Team Colors
+shirt1(36,9,10) //yellow
+shirt2(36,9,10)
+short(146,10,7)//blue
+socks(252,7,10)//red
+shoes(0,1,1)//black
+
+clash-shirt1(146,9,5)
+clash-shirt2(146,9,5)
+clash-short(43,9,10)
+clash-socks(43,9,10)
+clash-shoes(43,1,20)
+
+
+// Keeper
+keeper-shirt(246,8,5) //wine red
+keeper-gloves(0,0,20)
+keeper-socks(246,8,5)
+keeper-shoes(0,0,20)
+
+
+stadshirt(36,9,10)
+
+
+// Formation: 4-2-3-1
+
+// ATTACKERS
+newplayer(9,8,1,27,2) // Rafael Santos Borré 
+newplayer(8,6,2,27,2) // Luis Díaz 
+newplayer(7,4,4,27,2) // Juan Cuadrado //braids
+
+// MIDFIELD
+newplayer(6,9,1,27,2) // James Rodríguez 
+newplayer(5,2,1,27,2) // Jefferson Lerma 
+newplayer(4,9,1,27,2) // Mateus Uribe 
+
+// DEFENSE
+newplayer(3,2,1,27,2) // Davinson Sánchez 
+newplayer(2,4,1,27,2) // Yerry Mina 
+newplayer(1,4,4,27,2) // Johan Mojica 
+newplayer(0,7,1,27,2) // Daniel Muñoz
+
+keeper(9,1,27,2) // Camilo Vargas 
+
+

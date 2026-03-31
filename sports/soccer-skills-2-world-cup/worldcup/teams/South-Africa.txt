@@ -1,0 +1,46 @@
+plan(4,2,4)
+planpos(80)
+
+// Team Colors
+shirt1(31,10,10)
+shirt2(31,10,10)
+short(110,10,5)
+socks(31,10,12)
+shoes(6,6,14)
+
+clash-shirt1(110,10,2)
+clash-shirt2(110,10,2)
+clash-short(110,10,2)
+clash-socks(31,10,8)
+clash-shoes(6,6,14)
+
+
+// Keeper
+keeper-shirt(6,10,10)
+keeper-gloves(212,4,2)
+keeper-socks(6,10,13)
+keeper-shoes(6,6,13)
+
+stadshirt(31,10,10)
+
+// Formation: 4-2-3-1
+
+// ATTACK
+newplayer(9,4,1,27,1) // Themba Zwane - RW
+newplayer(8,4,0,27,3) // Percy Tau - ST
+newplayer(7,5,0,27,3) // Elias Mokwana - LW
+newplayer(5,4,1,27,1) // Teboho Mokoena - CAM
+
+// MIDFIELD
+newplayer(6,3,1,27,1) // Sphephelo Sithole - RCM
+newplayer(4,4,1,27,1) // Grant Kekana - LCM
+
+// DEFENSE
+newplayer(3,4,0,27,3) // Khuliso Mudau - RB
+newplayer(2,3,1,27,1) // Siyanda Xulu - CB
+newplayer(1,4,1,27,1) // Mothobi Mvala - CB
+newplayer(0,3,1,27,1) // Aubrey Modiba - LB
+
+keeper(6,4,29,4) // Ronwen Williams
+
+

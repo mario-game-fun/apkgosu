@@ -1,0 +1,47 @@
+plan(4,2,4)
+planpos(-40)
+
+// Team Colors
+shirt1(139,10,12)
+shirt2(162,10,14)
+short(150,10,11)
+socks(150,10,13)
+shoes(150,1,2)
+
+
+clash-shirt1(150,10,20) //red 
+clash-shirt2(162,10,17)
+clash-short(150,9,5) 
+clash-socks(150,9,11) 
+clash-shoes(150,1,2)
+
+
+// Keeper
+keeper-shirt(74,9,12)
+keeper-gloves(52,7,12) //greenish yellow
+keeper-socks(74,9,12)
+keeper-shoes(150,1,2)
+
+stadshirt(139,10,12)
+
+// Formation: 4-2-3-1
+
+// ATTACK
+newplayer(9,4,1,27,1) // Duckens Nazon - RW
+newplayer(8,3,1,27,1) // Frantzdy Pierrot - ST
+newplayer(7,3,1,27,1) // Derrick Etienne Jr. - LW
+newplayer(5,2,0,27,1) // Carlens Arcus - CAM
+
+// MIDFIELD
+newplayer(6,2,2,27,1) // Bryan Alceus - RCM
+newplayer(4,7,2,27,3) // Steven Saba - LCM
+
+// DEFENSE
+newplayer(3,2,2,27,1) // Carlens Arcus - RB
+newplayer(2,3,3,27,1) // Ricardo Ade - CB
+newplayer(1,4,1,27,1) // Mechack Jérôme - CB
+newplayer(0,4,3,27,2) // Jean-Kévin Duverne - LB
+
+keeper(3,0,27,3) // Johny Placide
+
+

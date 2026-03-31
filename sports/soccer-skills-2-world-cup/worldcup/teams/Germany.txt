@@ -1,0 +1,46 @@
+plan(4,2,4)
+planpos(-95)
+
+// Team Colors
+shirt1(17,5,20)
+shirt2(17,5,20)
+short(160,2,2)
+socks(17,5,20)
+shoes(31,9,17)
+
+clash-shirt1(156,7,4)
+clash-shirt2(156,8,6)
+clash-short(136,6,15)
+clash-socks(136,6,15)
+clash-shoes(31,9,17)
+
+
+// Keeper
+keeper-shirt(119,10,10)
+keeper-gloves(31,9,17)
+keeper-socks(119,10,10)
+keeper-shoes(229,9,9)
+
+stadshirt(17,2,20)
+
+// Formation: 4-2-3-1
+
+// ATTACKERS
+newplayer(8,10,1,29,2) // Havertz 
+newplayer(9,10,1,29,4) // Niclas Füllkrug 
+newplayer(5,10,1,28,4) // Florian Wirtz 
+newplayer(7,8,1,27,2) // Jamal Musiala 
+
+//mids
+
+newplayer(6,10,1,27,2) // Pavlovic
+newplayer(4,10,1,29,5) // Andrich
+
+// DEFENSE
+newplayer(3,10,1,29,5) // Joshua Kimmich 
+newplayer(2,6,1,27,2) // Jonathan Tah 
+newplayer(1,3,1,27,2) // Antonio Rüdiger 
+newplayer(0,10,2,29,5) // Maximilian Mittelstädt 
+
+keeper(10,1,27,4) // Marc-André ter Stegen
+

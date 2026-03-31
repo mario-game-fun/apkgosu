@@ -1,0 +1,47 @@
+plan(4,3,3)
+planpos(-60)
+
+// Team Colors
+shirt1(32,10,10) // yellow
+shirt2(32,10,10)
+short(110,10,2) //green
+socks(110,0,20)
+shoes(110,0,20)
+
+clash-shirt1(110,5,2) //blackish
+clash-shirt2(110,5,2)
+clash-short(110,5,2)
+clash-socks(110,5,2)
+clash-shoes(52,8,12) //greenish yellow
+
+
+// Keeper
+keeper-shirt(144,9,9) //blue
+keeper-gloves(52,7,12) //greenish yellow
+keeper-socks(144,9,9)
+keeper-shoes(52,7,12) //greenish yellow
+
+
+stadshirt(32,10,10)
+
+
+// Formation: 4-2-3-1
+
+// ATTACKERS
+newplayer(9,10,1,27,2) // Mitchell Duke 
+playercopy(8,9) // Martin Boyle 
+newplayer(7,10,2,27,4) // Craig Goodwin
+
+// MIDFIELD
+newplayer(6,9,1,27,3) // Ajdin Hrustic 
+newplayer(5,10,0,0,0) // Aaron Mooy 
+newplayer(4,9,3,27,3) // Jackson Irvine
+
+// DEFENSE
+newplayer(3,10,2,27,3) // Harry Souttar 
+newplayer(2,10,2,27,4) // Kye Rowles 
+playercopy(1,2) // Nathaniel Atkinson
+newplayer(0,6,1,27,0) // Aziz Behich 
+
+keeper(10,1,27,1) // Mathew Ryan 
+

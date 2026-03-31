@@ -1,0 +1,49 @@
+plan(4,3,3)
+planpos(-110)
+
+// Team Colors
+shirt1(167,3,20)
+shirt2(167,3,20)
+short(167,7,3)
+socks(167,3,20)
+shoes(167,3,20)
+
+clash-shirt1(0,9,9)
+clash-shirt2(0,9,9)
+clash-short(167,7,7)
+clash-socks(0,9,9)
+clash-shoes(167,7,3)
+
+
+// Keeper
+keeper-shirt(50,10,10) //yellow
+keeper-gloves(36,9,13) //blue
+keeper-socks(50,10,10)
+keeper-shoes(50,6,13)
+
+
+stadshirt(167,3,20)
+
+
+// Formation: 4-2-3-1
+
+// ATTACKERS
+newplayer(8,10,2,29,4) // Harry Kane 
+newplayer(9,3,1,27,2) // Bukayo Saka 
+newplayer(7,10,1,27,2) // Phil Foden 
+
+// MIDFIELD
+newplayer(5,7,1,27,2) // Jude Bellingham 
+newplayer(6,10,2,27,4) // Declan Rice 
+newplayer(4,6,1,27,2) // Trent Alexander-Arnold 
+
+// DEFENSE
+newplayer(3,9,1,28,4) // John Stones 
+newplayer(2,3,1,27,2) // Marc Guéhi 
+newplayer(1,8,1,27,2) // Kyle Walker 
+newplayer(0,10,1,28,4) // Luke Shaw 
+
+keeper(8,3,27,2) // Jordan Pickford 
+
+
+

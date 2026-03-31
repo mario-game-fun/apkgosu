@@ -1,0 +1,45 @@
+plan(3,4,3)
+planpos(-100)
+
+// Team Colors
+shirt1(0,9,10) //red
+shirt2(0,9,10)
+short(36,6,2) //greyish black
+socks(36,6,2)
+shoes(36,6,2)
+
+clash-shirt1(134,7,15) //originally baby-blue with pink detail
+clash-shirt2(134,7,15)
+clash-short(134,7,15) //pink (originally baby-blue with pink detail too)
+clash-socks(241,7,14)
+clash-shoes(0,0,20)
+
+
+// Keeper
+keeper-shirt(42,10,10) // yellow
+keeper-gloves(20,9,10) //bronze
+keeper-socks(42,10,10)
+keeper-shoes(42,10,10)
+
+stadshirt(0,9,10)
+
+// Formation: 3-4-2-1
+
+// ATTACKERS
+newplayer(9,2,0,0,0) // Romelu Lukaku
+newplayer(8,10,2,27,6) // Kevin De Bruyne
+newplayer(7,9,1,27,2) // Leandro Trossard 
+
+// MIDFIELD
+newplayer(6,7,1,27,2) // Youri Tielemans 
+newplayer(5,2,1,27,0) // Amadou Onana 
+newplayer(4,10,1,27,2) // Timothy Castagne 
+
+// DEFENSE
+newplayer(3,10,1,28,3) // Jan Vertonghen
+newplayer(2,10,4,28,3) // Wout Faes
+newplayer(1,9,2,27,1) // Thomas Meunier
+newplayer(0,7,3,27,0) // Arthur Theate 
+
+keeper(8,1,27,2) // Koen Casteels 
+

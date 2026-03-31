@@ -1,0 +1,46 @@
+plan(4,2,4)
+planpos(-65)
+
+// Team Colors
+shirt1(50,9,17) //all white
+shirt2(105,10,16)
+short(105,9,3)
+socks(105,9,2)
+shoes(0,4,2)
+
+clash-shirt1(105,10,8)
+clash-shirt2(39,10,12)
+clash-short(105,9,3)
+clash-socks(105,9,2)
+clash-shoes(0,4,2)
+
+
+// Keeper
+keeper-shirt(170,9,7)
+keeper-gloves(170,9,16)
+keeper-socks(170,9,4)
+keeper-shoes(170,9,4)
+
+stadshirt(50,9,17)
+
+//4-2-3-1
+
+// ATTACK
+newplayer(9,3,1,27,1) // Ismaïla Sarr - RW
+newplayer(8,3,2,27,1) // Boulaye Dia - ST
+playercopy(7,9) // Sadio Mané - LW
+newplayer(5,5,2,27,2) // Iliman Ndiaye - CAM
+
+// MIDFIELD
+playercopy(6,9) // Idrissa Gueye - RCM
+playercopy(4,9) // Pape Matar Sarr - LCM
+
+// DEFENSE
+newplayer(3,2,1,27,2) // Youssouf Sabaly - RB
+newplayer(2,2,0,27,1) // Kalidou Koulibaly - CB
+newplayer(1,5,1,27,1) // Abdou Diallo - CB
+newplayer(0,6,1,27,1) // Ismail Jakobs - LB
+
+keeper(3,1,27,1) // Édouard Mendy
+
+

@@ -1,0 +1,47 @@
+plan(4,3,3)
+planpos(120)
+
+// Team Colors
+shirt1(252,10,8)
+shirt2(252,10,8)
+short(0,2,3)
+socks(0,2,3)
+shoes(0,2,3)
+
+clash-shirt1(0,1,18)
+clash-shirt2(0,1,18)
+clash-short(0,2,3)
+clash-socks(0,2,3)
+clash-shoes(0,2,3)
+
+
+// Keeper
+keeper-shirt(134,10,11)
+keeper-gloves(113,9,17)
+keeper-socks(134,10,9)
+keeper-shoes(113,9,17)
+
+
+stadshirt(252,10,8)
+
+
+// Formation: 4-3-3
+
+// ATTACKERS
+newplayer(9,7,1,27,2) // Mohamed Salah
+playercopy(8,9) // Mostafa Mohamed
+newplayer(7,8,2,27,2) // Trezeguet 
+
+// MIDFIELD
+newplayer(6,6,1,27,2) // Mohamed Elneny 
+newplayer(5,8,2,27,2) // Hamdi Fathi 
+newplayer(4,9,2,27,2) // Emam Ashour 
+
+// DEFENSE
+playercopy(3,4) // Ahmed Hegazi 
+newplayer(2,7,1,27,2) // Mohamed Abdelmonem 
+newplayer(1,9,1,27,2) // Omar Kamal 
+newplayer(0,8,1,27,2) // Mohamed Hamdy 
+
+keeper(7,1,27,2) // Mohamed El Shenawy 
+

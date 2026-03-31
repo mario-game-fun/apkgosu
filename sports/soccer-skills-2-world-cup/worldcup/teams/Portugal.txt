@@ -1,0 +1,45 @@
+plan(4,3,3)
+planpos(-110)
+
+// Team Colors
+shirt1(0,10,8)
+shirt2(0,10,8)
+short(107,10,3)
+socks(0,10,7)
+shoes(0,2,20)
+
+clash-shirt1(135,3,17) //aquamarine or alternatively all black
+clash-shirt2(120,7,15)
+clash-short(135,2,19) //greyish white
+clash-socks(135,2,19)
+clash-shoes(135,6,19)
+
+
+// Keeper
+keeper-shirt(43,10,10)
+keeper-gloves(8,6,16)
+keeper-socks(43,10,10)
+keeper-shoes(8,6,16)
+
+stadshirt(0,10,8)
+
+// Formation: 4-2-3-1
+
+// ATTACKERS
+newplayer(9,8,2,27,3) // Bernardo Silva
+newplayer(8,7,2,27,1) // Cristiano Ronaldo
+newplayer(7,3,1,27,0) // Rafael Leão
+newplayer(4,9,2,27,2) // Bruno Fernandes
+
+// MIDFIELD
+newplayer(6,10,1,27,4) // João Palhinha
+newplayer(5,10,2,27,3) // Vitinha
+
+// DEFENSE
+playercopy(3,8) // João Cancelo
+playercopy(2,4) // Rúben Dias
+playercopy(1,4) // António Silva
+playercopy(0,7) // Nuno Mendes
+
+keeper(8,1,27,2) // Diogo Costa
+

@@ -1,0 +1,46 @@
+plan(4,2,4)
+planpos(-80)
+
+// Team Colors
+shirt1(156,5,19) //off-white
+shirt2(156,5,19)
+short(156,10,6)
+socks(156,2,19)
+shoes(0,9,12)
+
+clash-shirt1(165,8,4) //or completely blue (158,7,10)
+clash-shirt2(190,8,3)
+clash-short(165,8,3)
+clash-socks(0,9,10)
+clash-shoes(0,9,12)
+
+
+// Keeper
+keeper-shirt(34,10,10)
+keeper-gloves(0,10,13)
+keeper-socks(34,10,13)
+keeper-shoes(0,2,19)
+
+stadshirt(156,5,19)
+
+// Formation: 4-3-3/4-2-3-1
+
+// ATTACK
+newplayer(9,3,1,27,1) // Timothy Weah - RW
+playercopy(8,9) // Folarin Balogun - ST
+newplayer(7,9,2,28,3) // Christian Pulisic - LW
+newplayer(5,10,1,27,1) // Gio Reyna - CAM
+
+// MIDFIELD
+newplayer(6,6,4,27,2) // Tyler Adams - RCM
+newplayer(4,5,4,28,3) // Weston McKennie - LCM
+
+// DEFENSE
+newplayer(3,7,1,27,1) // Sergiño Dest - RB
+newplayer(2,6,4,27,3) // Chris Richards - CB
+newplayer(1,10,3,29,4) // Tim Ream - CB
+newplayer(0,7,2,27,1) // Antonee Robinson - LB
+
+keeper(9,1,27,2) // Matt Turner
+
+

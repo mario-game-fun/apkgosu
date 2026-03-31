@@ -1,0 +1,45 @@
+plan(4,3,3)
+planpos(-70)
+
+// Team Colors
+shirt1(252,10,9) //red
+shirt2(252,10,9)
+short(170,0,2) //black
+socks(252,10,9) //red
+shoes(170,0,2)
+
+clash-shirt1(51,1,17)
+clash-shirt2(51,1,17)
+clash-short(170,0,2)
+clash-socks(51,1,17)
+clash-shoes(0,0,20)
+
+// Keeper
+keeper-shirt(170,0,3)
+keeper-gloves(0,0,20)
+keeper-socks(170,0,3)
+keeper-shoes(0,0,0)
+
+stadshirt(252,10,9)
+
+// Formation: 4-3-2-1
+
+// ATTACK 
+newplayer(9,10,2,29,4) // Christoph Baumgartner - Right Attacking Midfielder 
+newplayer(8,9,2,27,3) // Marko Arnautovic - Striker 
+newplayer(7,10,3,27,3) // Marcel Sabitzer - Left Attacking Midfielder 
+newplayer(5,10,1,29,4) // Konrad Laimer - Central Attacking Midfielder 
+
+// MIDFIELD
+newplayer(6,10,2,29,5) // Nicolas Seiwald - Right Central Midfielder 
+newplayer(4,9,3,27,2) // Florian Grillitsch - Left Central Midfielder 
+
+// DEFENSE
+newplayer(3,10,2,28,3) // Stefan Posch - Right Back
+newplayer(2,3,1,27,1) // Kevin Danso - Center Back
+newplayer(1,9,0,27,2) // Gernot Trauner - Center Back
+newplayer(0,7,1,27,1) // Philipp Mwene - Left Back 
+
+// KEEPER
+keeper(10,2,29,4) // Patrick Pentz
+

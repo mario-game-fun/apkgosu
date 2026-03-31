@@ -1,0 +1,46 @@
+plan(4,3,3)
+planpos(77)
+
+// Team Colors
+shirt1(0,10,9) //red
+shirt2(0,10,9)
+short(245,10,6)
+socks(0,10,9)
+shoes(12,7,20)
+
+clash-shirt1(142,10,13) //blue with pink detail 
+clash-shirt2(167,9,18)
+clash-short(143,10,13)
+clash-socks(142,2,20)
+clash-shoes(167,2,4)
+
+
+// Keeper
+keeper-shirt(47,9,12)
+keeper-gloves(245,9,15)
+keeper-socks(47,9,12)
+keeper-shoes(12,7,20)
+
+stadshirt(0,10,9)
+
+// Formation: 4-2-3-1
+
+// ATTACK
+newplayer(7,10,1,27,3) // Ruben Vargas - LW
+newplayer(8,3,1,27,1) // Breel Embolo - ST
+newplayer(9,6,2,27,3) // Dan Ndoye - RW
+newplayer(5,9,1,27,2) // Xherdan Shaqiri - CAM
+
+// MIDFIELD
+newplayer(6,9,1,27,2) // Granit Xhaka - RCM
+playercopy(4,6) // Remo Freuler - LCM
+
+// DEFENSE
+newplayer(3,10,1,28,4) // Silvan Widmer - RB
+newplayer(2,5,1,27,1) // Manuel Akanji - CB
+newplayer(1,10,1,29,4) // Nico Elvedi - CB
+newplayer(0,7,3,27,4) // Ricardo Rodríguez - LB
+
+keeper(10,2,27,3) // Gregor Kobel (Yann Sommer retired)
+
+

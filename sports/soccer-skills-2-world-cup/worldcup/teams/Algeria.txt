@@ -1,0 +1,45 @@
+plan(4,2,4)
+planpos(-30)
+
+// Team Colors
+shirt1(107,2,19) //whiteish
+shirt2(107,8,15)
+short(107,2,20)
+socks(107,4,19)
+shoes(102,2,19)
+
+clash-shirt1(107,10,2) //green
+clash-shirt2(84,10,4)
+clash-short(107,10,2)
+clash-socks(107,10,2)
+clash-shoes(107,2,20)
+
+
+// Keeper
+keeper-shirt(248,10,10) //red
+keeper-gloves(23,9,12)
+keeper-socks(248,10,10)
+keeper-shoes(23,9,17)
+
+stadshirt(107,3,18)
+
+// Formation: 4-2-3-1
+
+// ATTACK
+newplayer(9,7,1,27,1) // Riyad Mahrez - RW
+newplayer(8,7,2,27,1) // Baghdad Bounedjah - ST
+newplayer(7,8,1,27,1) // Youcef Belaïli - LW
+playercopy(5,9) // Houssem Aouar - CAM
+
+// MIDFIELD
+newplayer(6,9,1,27,1) // Ismaël Bennacer - RCM
+newplayer(4,6,0,27,3) // Sofiane Feghouli - LCM
+
+// DEFENSE
+newplayer(3,7,1,27,1) // Youcef Atal - RB
+newplayer(2,8,2,27,2) // Ramy Bensebaini - CB
+newplayer(1,8,1,27,1) // Aïssa Mandi - CB
+newplayer(0,8,2,27,2) // Jaouen Hadjam - LB
+
+keeper(8,1,27,3) // Anthony Mandrea
+

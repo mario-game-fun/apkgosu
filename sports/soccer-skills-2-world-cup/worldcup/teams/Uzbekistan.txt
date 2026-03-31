@@ -1,0 +1,46 @@
+plan(4,3,3)
+planpos(30)
+
+// Team Colors
+shirt1(158,10,6)
+shirt2(158,10,6)
+short(158,10,9)
+socks(158,10,7)
+shoes(158,2,19)
+
+clash-shirt1(158,3,19)
+clash-shirt2(158,5,17)
+clash-short(158,10,9)
+clash-socks(158,10,6)
+clash-shoes(158,2,19)
+
+
+// Keeper
+keeper-shirt(158,2,2)
+keeper-gloves(159,9,4)
+keeper-socks(158,2,2)
+keeper-shoes(159,9,4)
+
+stadshirt(158,10,6)
+
+// Formation: 4-2-3-1
+
+// ATTACK
+newplayer(9,9,2,27,2) // Jaloliddin Masharipov - RW
+newplayer(8,8,2,27,2) // Eldor Shomurodov - ST
+playercopy(7,9) // Azizbek Turgunboev - LW
+playercopy(5,8) // Otabek Shukurov - CAM
+
+// MIDFIELD
+newplayer(6,7,1,27,2) // Odiljon Hamrobekov - RCM
+newplayer(4,9,2,27,2) // Sardor Rashidov - LCM
+
+// DEFENSE
+playercopy(3,8) // Khojiakbar Alijonov - RB
+playercopy(2,6) // Rustam Ashurmatov - CB
+playercopy(1,9) // Abdukodir Khusanov - CB
+newplayer(0,8,1,27,2) // Akmal Mozgovoy - LB
+
+keeper(8,1,27,2) // Utkir Yusupov
+
+

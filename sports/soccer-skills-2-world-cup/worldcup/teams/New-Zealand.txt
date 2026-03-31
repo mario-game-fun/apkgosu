@@ -1,0 +1,46 @@
+plan(4,2,4)
+planpos(-60)
+
+// Team Colors
+shirt1(150,4,19)
+shirt2(140,7,17)
+short(140,9,18)
+socks(140,4,19)
+shoes(140,2,20)
+
+clash-shirt1(157,3,2)
+clash-shirt2(157,3,3)
+clash-short(157,3,2)
+clash-socks(157,3,2)
+clash-shoes(157,2,1)
+
+
+// Keeper
+keeper-shirt(97,9,15)
+keeper-gloves(97,10,19)
+keeper-socks(97,9,10)
+keeper-shoes(140,8,15)
+
+stadshirt(145,4,19)
+
+// Formation: 4-2-3-1
+
+// ATTACK
+newplayer(9,7,2,27,2) // Marko Stamenic - RW
+newplayer(8,10,2,28,5) // Chris Wood - ST
+newplayer(7,9,2,27,2) // Liberato Cacace - LW
+newplayer(5,6,1,27,2) // Sarpreet Singh - CAM
+
+// MIDFIELD
+newplayer(6,10,2,28,4) // Joe Bell - RCM
+newplayer(4,8,4,27,2) // Clayton Lewis - LCM
+
+// DEFENSE
+newplayer(3,10,2,27,4) // Tim Payne - RB
+newplayer(2,10,1,27,2) // Michael Boxall - CB
+newplayer(1,6,1,27,1) // Winston Reid - CB
+newplayer(0,10,2,27,5) // Nando Pijnaker - LB
+
+keeper(9,2,27,2) // Max Crocombe
+
+

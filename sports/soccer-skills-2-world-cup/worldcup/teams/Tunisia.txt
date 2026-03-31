@@ -1,0 +1,46 @@
+plan(4,3,3)
+planpos(60)
+
+// Team Colors
+shirt1(5,10,9)
+shirt2(5,10,9)
+short(5,10,9)
+socks(5,10,9)
+shoes(11,5,18)
+
+clash-shirt1(5,2,19)
+clash-shirt2(5,3,19)
+clash-short(5,3,17)
+clash-socks(5,2,19)
+clash-shoes(11,5,19)
+
+
+// Keeper
+keeper-shirt(61,10,10)
+keeper-gloves(61,2,3)
+keeper-socks(56,10,12)
+keeper-shoes(61,2,3)
+
+stadshirt(5,10,9)
+
+// Formation: between 4-3-3 and 4-2-3-1
+
+// ATTACK
+newplayer(9,9,1,27,1) // Naïm Sliti - RW
+newplayer(8,6,1,27,1) // Seifeddine Jaziri - ST
+newplayer(7,7,1,27,1) // Elias Achouri - LW
+newplayer(5,6,3,27,1) // Hannibal Mejbri - CAM
+
+// MIDFIELD
+newplayer(6,8,1,27,1) // Ellyes Skhiri - RCM
+newplayer(4,6,1,27,1) // Aïssa Laïdouni - LCM
+
+// DEFENSE
+newplayer(3,6,1,27,1) // Mohamed Dräger - RB
+newplayer(2,9,2,27,1) // Montassar Talbi - CB
+newplayer(1,7,1,27,1) // Dylan Bronn - CB
+newplayer(0,6,1,27,1) // Ali Abdi - LB
+
+keeper(8,1,27,1) // Aymen Dahmen
+
+

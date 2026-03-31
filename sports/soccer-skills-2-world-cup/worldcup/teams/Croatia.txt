@@ -1,0 +1,47 @@
+plan(4,3,3)
+planpos(90)
+
+// Team Colors
+shirt1(0,9,18) 
+shirt2(0,9,12)
+short(0,4,20)
+socks(0,4,20)
+shoes(0,4,20)
+
+clash-shirt1(160,9,5)
+clash-shirt2(152,9,10)
+clash-short(160,9,4)
+clash-socks(160,9,4)
+clash-shoes(160,3,18)
+
+
+// Keeper
+keeper-shirt(40,9,10)
+keeper-gloves(40,4,3)
+keeper-socks(40,9,10)
+keeper-shoes(40,4,20)
+
+
+stadshirt(0,9,15)
+
+
+// Formation: 4-3-3
+
+// ATTACKERS
+newplayer(9,10,1,29,3) // Andrej Kramarić 
+newplayer(8,10,1,27,2) // Ivan Perišić 
+playercopy(7,8) // Luka Ivanušec 
+
+// MIDFIELD
+newplayer(6,10,2,28,4) // Luka Modrić 
+newplayer(5,8,1,27,2) // Marcelo Brozović 
+newplayer(4,9,1,27,2) // Mateo Kovačić 
+
+// DEFENSE
+newplayer(3,10,2,27,2) // Joško Gvardiol 
+newplayer(2,7,1,27,2) // Dejan Lovren 
+newplayer(1,10,1,27,2) // Josip Juranović 
+playercopy(0,6) // Borna Sosa 
+
+keeper(10,1,27,2) // Dominik Livaković
+

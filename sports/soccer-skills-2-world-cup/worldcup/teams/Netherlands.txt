@@ -1,0 +1,46 @@
+plan(4,3,3)
+planpos(110)
+
+// Team Colors
+shirt1(13,10,10)
+shirt2(13,10,10)
+short(13,10,9)
+socks(13,10,6)
+shoes(40,8,18)
+
+clash-shirt1(13,3,19) //white for the first time since 2015
+clash-shirt2(13,7,17)
+clash-short(13,10,9)
+clash-socks(13,10,6)
+clash-shoes(40,8,18)
+
+
+// Keeper
+keeper-shirt(36,10,10)
+keeper-gloves(13,6,20)
+keeper-socks(13,10,10)
+keeper-shoes(40,8,18)
+
+stadshirt(13,10,10)
+
+// Formation: 4-3-3
+
+// ATTACKERS
+newplayer(9,7,0,29,5) // Donyell Malen
+newplayer(8,7,1,27,2) // Memphis Depay
+newplayer(7,6,1,27,2) // Cody Gakpo
+
+// MIDFIELD
+newplayer(6,10,1,29,5) // Teun Koopmeiners
+newplayer(5,10,2,29,5) // Frenkie de Jong
+newplayer(4,6,2,27,2) // Tijjani Reijnders
+
+// DEFENSE
+newplayer(3,4,1,27,2) // Denzel Dumfries
+newplayer(2,6,3,27,2) // Virgil van Dijk
+playercopy(1,2) // Nathan Aké
+newplayer(0,4,2,27,2) // Ian Maatsen
+
+keeper(9,1,29,6) // Bart Verbruggen
+
+

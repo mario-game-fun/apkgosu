@@ -1,0 +1,46 @@
+plan(4,3,3)
+planpos(-90)
+
+// Team Colors
+shirt1(153,10,14)
+shirt2(153,10,14)
+short(141,6,2) //blueish black
+socks(141,6,2)
+shoes(141,2,20)
+
+clash-shirt1(188,7,3)
+clash-shirt2(167,9,6)
+clash-short(188,7,3)
+clash-socks(188,7,3)
+clash-shoes(188,4,2)
+
+
+// Keeper
+keeper-shirt(78,9,9)
+keeper-gloves(32,7,15)
+keeper-socks(78,9,10)
+keeper-shoes(141,2,2)
+
+stadshirt(153,10,16)
+
+// Formation: 4-3-3/4-2-3-1
+
+// ATTACK
+newplayer(9,9,2,27,2) // Facundo Pellistri - RW
+newplayer(8,8,3,27,2) // Darwin Núñez - ST
+newplayer(7,8,2,27,2) // Maximiliano Araújo - LW
+playercopy(5,9) // Giorgian De Arrascaeta - CAM
+
+// MIDFIELD
+newplayer(6,9,2,27,3) // Federico Valverde - RCM
+newplayer(4,9,1,27,2) // Manuel Ugarte - LCM
+
+// DEFENSE
+newplayer(3,9,1,27,2) // Nahitan Nández - RB
+newplayer(2,6,1,27,1) // Ronald Araújo - CB
+newplayer(1,9,2,27,3) // José María Giménez - CB
+newplayer(0,7,1,27,1) // Mathías Olivera - LB
+
+keeper(9,1,27,3) // Sergio Rochet
+
+

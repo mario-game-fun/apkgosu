@@ -1,0 +1,46 @@
+plan(4,3,3)
+planpos(50)
+
+// Team Colors
+shirt1(35,3,18)
+shirt2(35,3,18)
+short(35,7,12)
+socks(35,3,18)
+shoes(156,5,17)
+
+clash-shirt1(34,10,9)
+clash-shirt2(34,10,10)
+clash-short(34,10,10)
+clash-socks(34,10,9)
+clash-shoes(156,5,17)
+
+
+// Keeper
+keeper-shirt(222,9,7)
+keeper-gloves(222,4,20)
+keeper-socks(184,7,5)
+keeper-shoes(222,4,20)
+
+stadshirt(35,3,18)
+
+// Formation: 4-3-3
+
+// ATTACKERS
+newplayer(9,3,2,27,3) // Mohammed Kudus 
+newplayer(8,2,1,27,3) // Inaki Williams 
+newplayer(7,4,0,27,3) // Jordan Ayew 
+
+// MIDFIELD
+newplayer(6,3,1,27,2) // Thomas Partey 
+newplayer(5,2,4,27,2) // Mohammed Salisu (braids)
+newplayer(4,2,1,27,2) // Elisha Owusu 
+
+// DEFENSE
+newplayer(3,6,1,27,2) // Alexander Djiku 
+newplayer(2,6,0,27,2) // Denis Odoi 
+newplayer(1,3,2,27,2) // Tariq Lamptey 
+newplayer(0,3,3,27,2) // Gideon Mensah 
+
+keeper(4,3,27,2) // Lawrence Ati-Zigi 
+
+

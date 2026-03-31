@@ -1,0 +1,47 @@
+plan(4,2,4)
+planpos(90)
+
+// Team Colors
+shirt1(162,9,5)
+shirt2(162,9,2)
+short(162,9,3)
+socks(162,9,2)
+shoes(0,0,0)
+
+clash-shirt1(162,9,19)
+clash-shirt2(162,9,19)
+clash-short(162,9,3)
+clash-socks(162,9,2)
+clash-shoes(0,0,0)
+
+
+// Keeper
+keeper-shirt(0,10,12)
+keeper-gloves(29,9,13)
+keeper-socks(0,10,12)
+keeper-shoes(29,9,13)
+
+stadshirt(162,9,5)
+
+
+// Formation: 4-2-4 (wide midfielders)
+
+// ATTACKERS
+newplayer(9,10,2,27,2) // Takefusa Kubo - free attacking midfielder (right/center)
+newplayer(8,10,2,29,6) // Ritsu Doan - right attacking midfielder
+newplayer(7,10,2,27,2) // Ayase Ueda - striker
+playercopy(6,7) // Kaoru Mitoma - left attacking midfielder
+
+// MIDFIELD
+playercopy(5,9) // Wataru Endo - holding midfielder
+playercopy(4,9) // Daichi Kamada - central midfielder
+
+// DEFENSE
+playercopy(3,9) // Takehiro Tomiyasu - right back
+newplayer(2,8,2,27,2) // Ko Itakura - right center back
+newplayer(1,9,2,27,3) // Hiroki Ito - left center back
+playercopy(0,9) // Yuta Nakayama - left back
+
+keeper(5,2,29,6) // Zion Suzuki
+
+

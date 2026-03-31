@@ -1,0 +1,46 @@
+plan(4,3,3)
+planpos(90)
+
+// Team Colors
+shirt1(117,10,3)
+shirt2(117,10,3)
+short(37,2,18)
+socks(250,9,7)
+shoes(250,2,2)
+
+clash-shirt1(136,3,19)
+clash-shirt2(136,3,19)
+clash-short(117,7,3)
+clash-socks(117,7,3)
+clash-shoes(117,2,2)
+
+
+// Keeper
+keeper-shirt(236,9,11)
+keeper-gloves(145,5,3)
+keeper-socks(197,9,11)
+keeper-shoes(145,5,3)
+
+stadshirt(117,10,3)
+
+
+// Formation: 4-3-3
+
+// ATTACKERS
+newplayer(9,8,2,27,2) // Uriel Antuna
+newplayer(8,10,1,28,4) // Santiago Giménez
+newplayer(7,9,2,27,2) // Hirving Lozano
+
+// MIDFIELD
+newplayer(6,8,1,27,2) // Luis Chávez
+playercopy(5,6) // Edson Álvarez
+newplayer(4,7,2,27,2) // Orbelín Pineda
+
+// DEFENSE
+newplayer(3,9,2,27,2) // Jorge Sánchez
+playercopy(2,9) // César Montes
+playercopy(1,9) // Johan Vásquez
+newplayer(0,6,1,27,2) // Jesús Gallardo
+
+keeper(8,4,27,2) // Guillermo Ochoa
+

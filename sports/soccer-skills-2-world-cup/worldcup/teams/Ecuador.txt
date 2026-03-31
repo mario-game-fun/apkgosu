@@ -1,0 +1,48 @@
+plan(4,3,3)
+planpos(80)
+
+// Team Colors
+shirt1(35,10,10)
+shirt2(35,10,10)
+short(150,9,4)
+socks(150,9,4)
+shoes(35,5,17)
+
+clash-shirt1(148,9,4)
+clash-shirt2(148,9,4)
+clash-short(148,9,4)
+clash-socks(148,9,4)
+clash-shoes(35,7,12)
+
+
+// Keeper
+keeper-shirt(147,10,12)
+keeper-gloves(150,2,20)
+keeper-socks(147,10,12)
+keeper-shoes(150,2,20)
+
+
+stadshirt(35,10,10)
+
+
+// Formation: 4-3-3
+
+// ATTACKERS
+newplayer(9,8,1,27,2) // Ángel Mena
+newplayer(8,3,1,27,2) // Enner Valencia 
+newplayer(7,4,1,27,2) // José Cifuentes 
+
+// MIDFIELD
+
+newplayer(6,4,0,0,0) // Gonzalo Plata 
+newplayer(5,5,1,27,2) // Carlos Gruezo 
+newplayer(4,3,1,27,2) // Moisés Caicedo 
+
+// DEFENSE
+newplayer(3,4,4,27,2) // Ángelo Preciado 
+newplayer(2,4,1,27,2) // Félix Torres 
+newplayer(1,9,1,27,2) // Piero Hincapié 
+newplayer(0,4,1,27,2) // Pervis Estupiñán 
+
+keeper(9,1,27,2) // Hernán Galíndez 
+

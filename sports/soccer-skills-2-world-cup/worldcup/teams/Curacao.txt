@@ -1,0 +1,47 @@
+plan(4,3,3)
+planpos(40)
+
+// Team Colors
+shirt1(156,9,9)
+shirt2(156,9,9)
+short(156,9,7)
+socks(156,9,7)
+shoes(156,3,20)
+
+clash-shirt1(156,3,19)
+clash-shirt2(156,3,19)
+clash-short(156,5,3)
+clash-socks(156,3,20)
+clash-shoes(156,3,2)
+
+
+// Keeper
+keeper-shirt(232,9,17)
+keeper-gloves(0,2,20)
+keeper-socks(232,9,17)
+keeper-shoes(0,2,20)
+
+
+stadshirt(156,9,9)
+
+
+// Formation: 4-3-3
+
+// ATTACKERS
+newplayer(9,4,1,27,2) // Elson Hooi 
+newplayer(8,5,0,0,0) // Rangelo Janga 
+newplayer(7,5,2,27,2) // Jeremy Antonisse 
+
+// MIDFIELD
+newplayer(6,4,1,27,2) // Leandro Bacuna 
+newplayer(5,4,1,27,2) // Juninho Bacuna 
+newplayer(4,3,1,27,2) // Sherel Floranus
+
+// DEFENSE
+newplayer(3,4,1,27,2) // Cuco Martina 
+newplayer(2,4,1,27,2) // Darryl Lachman 
+newplayer(1,4,1,27,2) // Jurien Gaari
+newplayer(0,4,1,27,2) // Denzel Hall
+
+keeper(4,0,0,0) // Eloy Room 
+

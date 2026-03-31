@@ -1,0 +1,45 @@
+plan(4,3,3)
+planpos(70)
+
+// Team Colors
+shirt1(150,10,3)
+shirt2(150,10,3)
+short(150,10,4)
+socks(150,10,3)
+shoes(133,4,20)
+
+clash-shirt1(3,9,12) //alt: (251,8,8)
+clash-shirt2(3,9,9)
+clash-short(150,10,4) //alt: (0,0,2)
+clash-socks(150,10,3)
+clash-shoes(133,4,20)
+
+
+// Keeper
+keeper-shirt(144,10,10)
+keeper-gloves(12,2,20)
+keeper-socks(144,10,14)
+keeper-shoes(133,4,20)
+
+stadshirt(150,10,3)
+
+// Formation: 4-2-3-1
+
+// ATTACK
+newplayer(9,10,1,27,1) // John McGinn - RW
+newplayer(8,9,1,27,2) // Lyndon Dykes - ST
+newplayer(7,10,2,27,3) // Ryan Christie - LW
+newplayer(5,10,2,27,3) // Scott McTominay - CAM
+
+// MIDFIELD
+newplayer(6,10,2,27,2) // Billy Gilmour - RCM
+newplayer(4,10,1,27,3) // Callum McGregor - LCM
+
+// DEFENSE
+newplayer(3,10,2,27,2) // Nathan Patterson - RB
+newplayer(2,10,2,27,2) // Scott McKenna - CB
+newplayer(1,10,1,27,2) // Grant Hanley - CB
+newplayer(0,10,1,27,2) // Andy Robertson - LB
+
+keeper(10,1,27,2) // Angus Gunn
+

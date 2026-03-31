@@ -1,0 +1,46 @@
+plan(4,2,4)
+planpos(40)
+
+// Team Colors
+shirt1(0,2,19) //white
+shirt2(0,1,20)
+short(0,5,19)
+socks(0,8,17)
+shoes(0,9,7)
+
+clash-shirt1(2,10,9) //red
+clash-shirt2(2,9,11)
+clash-short(2,9,6)
+clash-socks(2,9,10)
+clash-shoes(2,2,20)
+
+
+// Keeper
+keeper-shirt(41,10,10)
+keeper-gloves(41,2,20)
+keeper-socks(41,10,10)
+keeper-shoes(41,3,20)
+
+stadshirt(0,2,19)
+
+// Formation: 4-2-3-1
+
+// ATTACK
+newplayer(9,7,1,27,2) // Mousa Al-Tamari - RW
+newplayer(8,8,2,27,2) // Yazan Al-Naimat - ST
+newplayer(7,7,2,27,2) // Mahmoud Al-Mardi - LW
+newplayer(5,8,1,27,2) // Noor Al-Rawabdeh - CAM
+
+// MIDFIELD
+newplayer(6,9,1,27,3) // Ihsan Haddad - RCM
+newplayer(4,7,2,27,1) // Rajaei Ayed - LCM
+
+// DEFENSE
+newplayer(3,8,1,27,2) // Yazan Al-Arab - RB
+newplayer(2,9,2,27,1) // Saed al-Rosan - CB
+newplayer(1,4,1,27,2) // Abdullah Nasib - CB
+newplayer(0,8,1,27,2) // Mohammad Abu Hasheesh - LB
+
+keeper(6,1,27,3) // Ahmad Al-Farah
+
+

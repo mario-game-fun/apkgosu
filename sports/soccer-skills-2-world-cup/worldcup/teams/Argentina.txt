@@ -1,0 +1,47 @@
+plan(4,3,3)
+planpos(120)
+
+// Team Colors
+shirt1(148,9,19)
+shirt2(148,9,15)
+short(148,8,2)
+socks(148,2,20)
+shoes(148,2,20)
+
+clash-shirt1(148,7,2) 
+clash-shirt2(148,7,2)
+clash-short(148,7,2)
+clash-socks(148,7,2)
+clash-shoes(148,3,1)
+
+
+// Keeper
+keeper-shirt(60,9,10) 
+keeper-gloves(60,9,20)
+keeper-socks(60,9,10)
+keeper-shoes(60,9,20)
+
+
+stadshirt(148,9,17)
+
+
+// Formation: 4-3-3
+
+// ATTACKERS
+newplayer(9,9,1,27,3) // Lionel Messi 
+playercopy(8,9) // Julián Álvarez 
+newplayer(7,7,1,27,2) // Ángel Di María
+
+// MIDFIELD
+playercopy(4,7) // Rodrigo De Paul
+newplayer(6,8,1,27,2) // Enzo Fernández
+newplayer(5,9,1,27,4) // Alexis Mac Allister 
+
+// DEFENSE
+newplayer(3,6,1,27,2) // Nahuel Molina 
+newplayer(2,5,1,27,2) // Cristian Romero 
+playercopy(1,7) // Nicolás Otamendi 
+playercopy(0,5) // Nicolás Tagliafico 
+
+keeper(9,1,27,3) // Emiliano Martínez 
+

@@ -1,0 +1,45 @@
+plan(4,2,4)
+planpos(-50)
+
+// Team Colors
+shirt1(254,9,9)
+shirt2(254,9,10)
+short(254,9,8)
+socks(254,9,9)
+shoes(254,2,20)
+
+clash-shirt1(155,5,20) 
+clash-shirt2(155,7,13)
+clash-short(254,9,8)
+clash-socks(155,5,19)
+clash-shoes(155,2,20)
+
+
+// Keeper
+keeper-shirt(75,10,10) //light green
+keeper-gloves(75,2,1)
+keeper-socks(75,10,13)
+keeper-shoes(75,2,1)
+
+stadshirt(254,9,9)
+
+// Formation: 4-3-2-1
+
+// ATTACK
+newplayer(9,4,2,27,1) // Édgar Bárcenas - RW
+newplayer(8,3,2,27,1) // José Fajardo - ST
+newplayer(7,6,1,27,1) // Ismael Díaz - LW
+newplayer(5,4,1,27,3) // Alberto Quintero - CAM
+
+// MIDFIELD
+newplayer(6,4,4,27,1) // Aníbal Godoy - RCM
+newplayer(4,6,4,27,2) // Adalberto Carrasquilla - LCM
+
+// DEFENSE
+newplayer(3,5,2,27,1) // Michael Murillo - RB
+newplayer(2,5,1,27,1) // Fidel Escobar - CB
+newplayer(1,6,2,27,1) // Andrés Andrade - CB
+newplayer(0,6,1,27,1) // Éric Davis - LB
+
+keeper(5,2,27,2) // Orlando Mosquera
+
