@@ -706,9 +706,7 @@ var GameArchiveLoader = {
         for (var i=0;i<file.pieces.length; ++i) {
             actualSize += file.pieces[i].dataLength;
         }
-        if (actualSize != file.size) {
-            return Promise.reject(new Error("Unexpected data size: " + file.name + ", expected size: " + file.size + ", actual size: " + actualSize));
-        }
+     
 
         // verify the pieces
         if (file.pieces.length > 1) {
