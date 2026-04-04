@@ -1,0 +1,67 @@
+,en,ru,tr,es,fr,de,it
+lang,English,Русский,Türkçe,Español,Français,Deutsch,Italiano
+retry_pc,PRESS TO RETRY,НАЖМИ ДЛЯ ПОВТОРА,TEKRARLAMAK İÇİN BAS,PULSA PARA REINTENTAR,APPUYER POUR RÉESSAYER,ZUM WIEDERHOLEN DRÜCKEN,PREMI PER RIPROVARE
+retry_mobile,TAP TO RETRY,НАЖМИ ДЛЯ ПОВТОРА,TEKRARLAMAK İÇİN DOKUN,TOCA PARA REINTENTAR,TOUCHER POUR RÉESSAYER,ZUM WIEDERHOLEN TIPPEN,TOCCA PER RIPROVARE
+pause_resume,RESUME,ПРОДОЛЖИТЬ,DEVAM ET,CONTINUAR,REPRENDRE,FORTSETZEN,RIPRENDI
+pause_editor,Create map,Создать карту,Harita oluştur,Crear mapa,Créer carte,Karte erstellen,Crea mappa
+,,,,,,,
+,,,,,,,
+,,,,,,,
+stage_name1,BEGIN,НАЧАЛО,BAŞLANGIÇ,INICIO,DÉBUT,BEGINN,INIZIO
+stage_name2,NEEDLES,ИГЛЫ,İĞNELER,AGUJAS,AIGUILLES,NADELN,AGHI
+stage_name3,SPEED,СКОРОСТЬ,HIZ,VELOCIDAD,VITESSE,GESCHWINDIGKEIT,VELOCITÀ
+stage_name4,GRAVITY,ГРАВИТАЦИЯ,YERÇEKİMİ,GRAVEDAD,GRAVITÉ,GRAVITATION,GRAVITÀ
+stage_name5,ICE,ЛЕД,BUZ,HIELO,GLACE,EIS,GHIACCIO
+stage_name6,SPHERES,СФЕРЫ,KÜRELER,ESFERAS,SPHÈRES,SPHÄREN,SFERE
+stage_name7,REVERSE,РЕВЕРС,TERS,INVERSO,INVERSE,RÜCKWÄRTS,REVERSE
+stage_name8,BOUNCE,ПРЫЖОК,ZIPLAMA,REBOTE,REBOND,SPRUNG,RIMBALZO
+stage_name9,ARROWS,СТРЕЛЫ,OKLAR,FLECHAS,FLÈCHES,PFEILE,FRECCE
+,,,,,,,
+,,,,,,,
+import_map,Add\nfriend's\nmap,Добавить\nкарту\nдруга,Arkadaş\nharitasını\nekle,Añadir\nmapa de\namigo,Ajouter\ncarte\nd'un ami,Freundes-\nkarte\nhinzufügen,Aggiungi\nmappa\namico
+create_map,Create\nmap,Создать\nкарту,Harita\nOluştur,Crear\nmapa,Créer\ncarte,Karte\nerstellen,Crea\nmappa
+my_maps,My maps,Мои карты,Haritalarım,Mis mapas,Mes cartes,Meine Karten,Le mie mappe
+open_map,Open,Открыть,Aç,Abrir,Ouvrir,Öffnen,Apri
+send_friend,Send to a friend,Отправить другу,Arkadaşına gönder,Enviar a un amigo,Envoyer à un ami,An einen Freund senden,Invia a un amico
+delete_map,Delete,Удалить,Sil,Eliminar,Supprimer,Löschen,Elimina
+map_name_desc,Enter map name,Напиши название карты,Harita adını gir,Introduce el nombre del mapa,Entre le nom de la carte,Kartennamen eingeben,Inserisci nome mappa
+import_desc,Paste the map code from your friend,Вставь код карты от друга,Arkadaşından gelen harita kodunu yapıştır,Pega el código del mapa de tu amigo,Colle le code de la carte d'un ami,Füge den Kartencode von deinem Freund ein,Incolla il codice mappa del tuo amico
+,,,,,,,
+message_copy,Code copied,Код скопирован,Kod kopyalandı,Código copiado,Code copié,Code kopiert,Codice copiato
+message_added,Map added,Карта добавлена,Harita eklendi,Mapa añadido,Carte ajoutée,Karte hinzugefügt,Mappa aggiunta
+message_code_invalid,Invalid code,Неверный код,Geçersiz kod,Código inválido,Code invalide,Ungültiger Code,Codice errato
+,,,,,,,
+,,,,,,,
+end_text0,...,...,...,...,...,...,...
+end_text1,Wait.,Подожди.,Bekle.,Espera.,Attends.,Warte.,Aspetta.
+end_text2,You actually made it here?,Ты реально дошёл сюда?,Gerçekten buraya kadar geldin mi?,¿De verdad has llegado hasta aquí?,Tu es vraiment arrivé jusqu'ici ?,Du hast es tatsächlich bis hierher geschafft?,Sei davvero arrivato fin qui?
+end_text3,All levels?,Все уровни?,Tüm seviyeler mi?,¿Todos los niveles?,Tous les niveaux ?,Alle Level?,Tutti i livelli?
+end_text4,Your death count - {0},Количество твоих смертей - {0},Ölüm sayın - {0},Tu contador de muertes - {0},Ton nombre de morts - {0},Deine Todesanzahl - {0},Il tuo numero di morti - {0}
+end_text5_z,Wait. Zero?,Подожди. Ноль?,Bekle. Sıfır mı?,Espera. ¿Cero?,Attends. Zéro ?,Warte. Null?,Aspetta. Zero?
+end_text6_z,Are you even human?,Ты вообще человек?,Sen insan mısın?,¿Eres humano siquiera?,Es-tu seulement humain ?,Bist du überhaupt ein Mensch?,Ma sei umano?
+end_text5_l,You barely died.,Почти не умирал.,Neredeyse hiç ölmedin.,Apenas moriste.,Tu es à peine mort.,Du bist kaum gestorben.,Sei morto pochissimo.
+end_text6_l,Respect.,Уважаю.,Saygı duydum.,Respeto.,Respect.,Respekt.,Rispetto.
+end_text5_h,That's a lot.,Это много.,Bu çok fazla.,Eso es mucho.,C'est beaucoup.,Das ist viel.,È tanto.
+end_text6_h,A whole lot.,Очень много.,Hem de çok.,Muchísimo.,Vraiment beaucoup.,Ziemlich viel.,Tantissimo.
+end_text7,I'm in shock. Genuinely in shock.,Я в шоке. Реально в шоке.,Şoktayım. Gerçekten şoktayım.,Estoy en shock. Sinceramente en shock.,Je suis sous le choc. Vraiment sous le choc.,Ich bin geschockt. Ehrlich geschockt.,Sono scioccato. Veramente scioccato.
+end_text8,Remember the first level?,Помнишь первый уровень?,İlk seviyeyi hatırlıyor musun?,¿Recuerdas el primer nivel?,Tu te souviens du premier niveau ?,Erinnerst du dich an das erste Level?,Ricordi il primo livello?
+end_text9,When it seemed easy?,Когда казалось что это легко?,Kolay göründüğü zamanları?,¿Cuando parecía fácil?,Quand ça semblait facile ?,Als es noch einfach schien?,Quando sembrava facile?
+end_text10,Ha.,Ха.,Ha.,Ja.,Ha.,Ha.,Ha.
+end_text11,Remember how mad you got?,А помнишь как злился?,Ne kadar sinirlendiğini hatırlıyor musun?,¿Recuerdas cuánto te enfadaste?,Tu te souviens de ta colère ?,"Weißt du noch, wie wütend du warst?",Ricordi quanto ti sei arrabbiato?
+end_text12,But you didn't quit.,Но не бросил.,Ama pes etmedin.,Pero no te rendiste.,Mais tu n'as pas abandonné.,Aber du hast nicht aufgegeben.,Ma non hai mollato.
+end_text13,And here you are.,И вот ты здесь.,Ve işte buradasın.,Y aquí estás.,Et te voilà.,Und hier bist du.,Ed eccoti qui.
+end_text14,On a screen that few have seen.,На экране который видели немногие.,Çok az kişinin gördüğü bir ekranda.,En una pantalla que pocos han visto.,Sur un écran que peu ont vu.,"Auf einem Bildschirm, den nur wenige gesehen haben.",Su una schermata che pochi hanno visto.
+end_text15,Thanks for playing.,Спасибо что играл.,Oynadığın için teşekkürler.,Gracias por jugar.,Merci d'avoir joué.,Danke fürs Spielen.,Grazie per aver giocato.
+end_text16,Seriously.,Серьёзно.,Cidden.,En serio.,Sérieusement.,Ernsthaft.,Seriamente.
+end_text17,You're awesome.,Ты крут.,Harikasın.,Eres increíble.,Tu es génial.,Du bist fantastisch.,Sei fantastico.
+end_text18,You can now replay any level.,Теперь можешь перепройти любой уровень.,Artık herhangi bir seviyeyi tekrar oynayabilirsin.,Ahora puedes repetir cualquier nivel.,Tu peux maintenant rejouer n'importe quel niveau.,Du kannst nun jedes Level wiederholen.,Ora puoi rigiocare qualsiasi livello.
+end_text19,Or create your own map to torture your friends.,Или создай свою карту чтобы помучать друзей.,Ya da arkadaşlarını delirtmek için kendi haritanı oluştur.,O crear tu propio mapa para torturar a tus amigos.,Ou créer ta propre carte pour torturer tes amis.,"Oder erstelle deine eigene Karte, um deine Freunde zu quälen.",O crea la tua mappa per torturare i tuoi amici.
+,,,,,,,
+,,,,,,,
+trash_text,Delete progress? Completed levels and death count will be reset. Your maps will be saved.,Удалить прогресс? Пройденные уровни и счётчик смертей обнулятся. Твои карты сохранятся.,İlerlemeyi silmek istiyor musun? Tamamlanan seviyeler ve ölüm sayısı sıfırlanacak. Haritaların kaydedilecek.,¿Borrar progreso? Los niveles completados y el contador de muertes se reiniciarán. Tus mapas se guardarán.,Supprimer la progression ? Les niveaux terminés et le nombre de morts seront réinitialisés. Tes cartes seront sauvegardées.,Fortschritt löschen? Abgeschlossene Level und Todesanzahl werden zurückgesetzt. Deine Karten bleiben gespeichert.,Elimina progressi? I livelli completati e il conteggio delle morti saranno azzerati. Le tue mappe saranno salvate.
+trash_delete,Delete,Удалить,Sil,Eliminar,Supprimer,Löschen,Elimina
+trash_close,Cancel,Отмена,İptal,Cancelar,Annuler,Abbrechen,Annulla
+,,,,,,,
+death_count,Death count: {0},Количество смертей: {0},Ölüm sayısı: {0},Muertes: {0},Nombre de morts : {0},Tode: {0},Conteggio morti: {0}
+,,,,,,,
+retry_deaths,Deaths: {0},Смертей: {0},Ölüm: {0},Muertes: {0},Morts: {0},Tode: {0},Morti: {0}
