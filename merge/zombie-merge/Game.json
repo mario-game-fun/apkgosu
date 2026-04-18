@@ -1,0 +1,2652 @@
+{
+
+"Perks" : {
+	
+	"HeroBuy" : 
+	["Improves rarity probability of purchased units",
+	"Ameliore la probabilite de rarete des unites achetees",
+	"Mejora la probabilidad de rareza de las unidades compradas",
+	"Melhora a probabilidade de raridade das unidades compradas",
+	"Meningkatkan probabilitas kelangkaan unit yang dibeli",
+	"Satin alinan birimlerin nadirlik olasiligini artirir"],
+	
+	"HeroDice" : 
+	["Improves rarity probability of dice throws",
+	"Ameliore la probabilite de rarete des lancers de des",
+	"Mejora la probabilidad de rareza de los lanzamientos de dados",
+	"Melhora a probabilidade de raridade dos lancamentos de dados",
+	"Meningkatkan probabilitas kelangkaan lemparan dadu",
+	"Zar atislarinin nadirlik olasiligini artirir"],
+	
+	"HeroDamage" : 
+	["Enhances damage of current and future units",
+	"Ameliore les degats des unites actuelles et futures",
+	"Mejora los danos de las unidades actuales y futuras",
+	"Aumenta os danos das unidades actuais e futuras",
+	"Meningkatkan kerusakan unit saat ini dan yang akan datang",
+	"Mevcut ve gelecekteki birimlerin hasarini artirir"],
+	
+	"HeroFirerate" : 
+	["Enhances firerate of current and future units",
+	"Ameliore la vitesse des unites actuelles et futures",
+	"Mejora la velocidad de las unidades actuales y futuras",
+	"Aumenta a velocidade das unidades actuais e futuras",
+	"Meningkatkan kecepatan unit saat ini dan yang akan datang",
+	"Mevcut ve gelecekteki birimlerin hizini artirir"],
+	
+	"HeroRange" : 
+	["Enhances range of current and future units",
+	"Ameliore la portee des unites actuelles et futures",
+	"Mejora la gama de unidades actuales y futuras",
+	"Melhora a gama de unidades actuais e futuras",
+	"Meningkatkan jangkauan unit saat ini dan yang akan datang",
+	"Mevcut ve gelecekteki birimlerin cesitliligini artirir"],
+	
+	"HeroTransform" : 
+	["Transforms all units into new units of the same rarity",
+	"Transforme toutes les unites en nouvelle unite de meme rarete",
+	"Transforma todas las unidades en nuevas unidades de la misma rareza",
+	"Transforma todas as unidades em novas unidades da mesma raridade",
+	"Mengubah semua unit menjadi unit baru dengan kelangkaan yang sama",
+	"Tum birimleri ayni nadirlikte yeni birimlere donusturur"],
+	
+	"HeroSlot" : 
+	["Unlocks extra unit slots",
+	"Debloque de nouveaux emplacements d'unite",
+	"Desbloquea ranuras adicionales para unidades",
+	"Desbloquear slots de unidades extra",
+	"Membuka kunci slot unit tambahan",
+	"Ekstra birim yuvalarinin kilidini acin"],
+	
+	"ZombieMax" : 
+	["Increases the maximum zombie limit",
+	"Augmente la limite maximale de zombies",
+	"Aumenta el limite maximo de zombis",
+	"Aumenta o limite maximo de zombies",
+	"Meningkatkan batas maksimum zombie",
+	"Maksimum zombi limitini artirir"]
+
+},
+"PerksList" : ["HeroBuy","HeroDice","HeroDamage","HeroFirerate","HeroTransform","ZombieMax"],
+"PerksData" : {
+
+	"HeroBuy" : {
+		"Upgradable" : 1,
+		"0" : 
+		[[[0,0.82],[0]],
+		[[0.82,0.92],[1]],
+		[[0.92,0.97],[2]],
+		[[0.97,0.99],[3]],
+		[[0.99,1],[4]]],
+		"1" : 
+		[[[0,0.74],[0]],
+		[[0.74,0.86],[1]],
+		[[0.86,0.94],[2]],
+		[[0.94,0.98],[3]],
+		[[0.98,1],[4]]],
+		"2" : 
+		[[[0,0.65],[0]],
+		[[0.65,0.8],[1]],
+		[[0.8,0.9],[2]],
+		[[0.9,0.96],[3]],
+		[[0.96,1],[4]]],
+		"3" : 
+		[[[0,0.54],[0]],
+		[[0.54,0.74],[1]],
+		[[0.74,0.86],[2]],
+		[[0.86,0.94],[3]],
+		[[0.94,1],[4]]],
+		"4" : 
+		[[[0,0.42],[0]],
+		[[0.42,0.67],[1]],
+		[[0.67,0.82],[2]],
+		[[0.82,0.92],[3]],
+		[[0.92,1],[4]]],
+		"5" : 
+		[[[0,0.28],[0]],
+		[[0.28,0.58],[1]],
+		[[0.58,0.78],[2]],
+		[[0.78,0.9],[3]],
+		[[0.9,1],[4]]]
+	},
+	"HeroDice" : {
+		"Upgradable" : 1,
+		"0" : 
+		[[[0,0.97],[2]],
+		[[0.97,0.99],[3]],
+		[[0.99,1],[4]]],
+		"1" : 
+		[[[0,0.94],[2]],
+		[[0.94,0.98],[3]],
+		[[0.98,1],[4]]],
+		"2" : 
+		[[[0,0.9],[2]],
+		[[0.9,0.96],[3]],
+		[[0.96,1],[4]]],
+		"3" : 
+		[[[0,0.86],[2]],
+		[[0.86,0.94],[3]],
+		[[0.94,1],[4]]],
+		"4" : 
+		[[[0,0.82],[2]],
+		[[0.82,0.92],[3]],
+		[[0.92,1],[4]]],
+		"5" : 
+		[[[0,0.78],[2]],
+		[[0.78,0.9],[3]],
+		[[0.9,1],[4]]]
+	},
+	"HeroDamage" : {
+		"Upgradable" : 1,
+		"0" : 1,
+		"1" : 1.1,
+		"2" : 1.2,
+		"3" : 1.3,
+		"4" : 1.4,
+		"5" : 1.5
+	},
+	"HeroFirerate" : {
+		"Upgradable" : 1,
+		"0" : 1,
+		"1" : 0.95,
+		"2" : 0.9,
+		"3" : 0.85,
+		"4" : 0.8,
+		"5" : 0.75
+	},
+	"HeroRange" : {
+		"Upgradable" : 1,
+		"0" : 1,
+		"1" : 1.1,
+		"2" : 1.2,
+		"3" : 1.3,
+		"4" : 1.4,
+		"5" : 1.5
+	},
+	"HeroTransform" : {
+		"Upgradable" : 0
+	},
+	"HeroSlot" : {
+		"Upgradable" : 1,
+		"0" : 0,
+		"1" : 1,
+		"2" : 2,
+		"3" : 2,
+		"4" : 2,
+		"5" : 2
+	},
+	"ZombieMax" : {
+		"Upgradable" : 1,
+		"0" : 0,
+		"1" : 5,
+		"2" : 5,
+		"3" : 5,
+		"4" : 5,
+		"5" : 5
+	}
+},
+
+"HeroList" : ["Knife","Boomerang","Nomad","Fisherman","Berserker","Shotgun","Soldier","Crossbow","Hunter","Ninja","Sheriff","Sparta","Jester","Needler","Scientist","Knight","Monk","Neptune","Monkey","Paladin","Pyromaniac","Engineer","Rpg","Cyber"],
+"HeroPassiveList" : ["Pyromaniac","Rpg","Cyber"],
+"HeroMeleeList" : ["Knife","Fisherman","Soldier","Sparta","Needler","Knight","Neptune","Paladin","Timber"],
+"HeroData" : {
+
+	"Knife" : {
+		"Level" : 0,
+		"CostCard" : [0,5,10,20,30,40,50,60,70,80,90,100,110,130,150],
+		"CostUpgrade" : [0,500,1000,1500,2500,3500,5000,6500,8500,10500,13000,15500,18500,21500,25000],
+		"Data" : {
+			"1" : {
+				"Damage" : 100,
+				"Firerate" : 1,
+				"Range" : 40,
+				"Critical" : 0.1
+				},
+			"3" : {
+				"Damage" : 120,
+				"Firerate" : 1,
+				"Range" : 40,
+				"Critical" : 0.1,
+				"Upgrade" : "Damage"
+				},
+			"6" : {
+				"Damage" : 120,
+				"Firerate" : 1,
+				"Range" : 40,
+				"Critical" : 0.2,
+				"Upgrade" : "Critical"
+				},
+			"9" : {
+				"Damage" : 120,
+				"Firerate" : 0.8,
+				"Range" : 40,
+				"Critical" : 0.2,
+				"Upgrade" : "Firerate"
+				},
+			"12" : {
+				"Damage" : 120,
+				"Firerate" : 0.8,
+				"Range" : 40,
+				"Critical" : 0.3,
+				"Upgrade" : "Critical"
+				},
+			"15" : {
+				"Damage" : 150,
+				"Firerate" : 0.8,
+				"Range" : 40,
+				"Critical" : 0.3,
+				"Upgrade" : "Damage"
+				}
+		}
+	},
+	"Boomerang" : {
+		"Level" : 0,
+		"CostCard" : [0,5,10,20,30,40,50,60,70,80,90,100,110,130,150],
+		"CostUpgrade" : [0,500,1000,1500,2500,3500,5000,6500,8500,10500,13000,15500,18500,21500,25000],
+		"Data" : {
+			"1" : {
+				"Damage" : 40,
+				"Firerate" : 1.2,
+				"Range" : 50,
+				"Bounce" : 1
+				},
+			"3" : {
+				"Damage" : 40,
+				"Firerate" : 1.2,
+				"Range" : 80,
+				"Bounce" : 1,
+				"Upgrade" : "Range"
+				},
+			"6" : {
+				"Damage" : 40,
+				"Firerate" : 1.2,
+				"Range" : 80,
+				"Bounce" : 2,
+				"Upgrade" : "Bounce"
+				},
+			"9" : {
+				"Damage" : 60,
+				"Firerate" : 1.2,
+				"Range" : 80,
+				"Bounce" : 2,
+				"Upgrade" : "Damage"
+				},
+			"12" : {
+				"Damage" : 60,
+				"Firerate" : 1.2,
+				"Range" : 80,
+				"Bounce" : 3,
+				"Upgrade" : "Bounce"
+				},
+			"15" : {
+				"Damage" : 60,
+				"Firerate" : 1,
+				"Range" : 80,
+				"Bounce" : 3,
+				"Upgrade" : "Firerate"
+				}
+		}
+	},
+	"Nomad" : {
+		"Level" : 0,
+		"CostCard" : [0,5,10,20,30,40,50,60,70,80,90,100,110,130,150],
+		"CostUpgrade" : [0,500,1000,1500,2500,3500,5000,6500,8500,10500,13000,15500,18500,21500,25000],
+		"Data" : {
+			"1" : {
+				"Damage" : 50,
+				"Firerate" : 1.4,
+				"Range" : 50,
+				"Multishot" : 2
+				},
+			"3" : {
+				"Damage" : 50,
+				"Firerate" : 1.2,
+				"Range" : 50,
+				"Multishot" : 2,
+				"Upgrade" : "Firerate"
+				},
+			"6" : {
+				"Damage" : 50,
+				"Firerate" : 1.2,
+				"Range" : 50,
+				"Multishot" : 3,
+				"Upgrade" : "Multishot"
+				},
+			"9" : {
+				"Damage" : 50,
+				"Firerate" : 1.2,
+				"Range" : 80,
+				"Multishot" : 3,
+				"Upgrade" : "Range"
+				},
+			"12" : {
+				"Damage" : 80,
+				"Firerate" : 1.2,
+				"Range" : 80,
+				"Multishot" : 3,
+				"Upgrade" : "Damage"
+				},
+			"15" : {
+				"Damage" : 80,
+				"Firerate" : 1.2,
+				"Range" : 80,
+				"Multishot" : 4,
+				"Upgrade" : "Multishot"
+				}
+		}
+	},
+	"Fisherman" : {
+		"Level" : 0,
+		"CostCard" : [0,5,10,20,30,40,50,60,70,80,90,100,110,130,150],
+		"CostUpgrade" : [0,500,1000,1500,2500,3500,5000,6500,8500,10500,13000,15500,18500,21500,25000],
+		"Data" : {
+			"1" : {
+				"Damage" : 150,
+				"Firerate" : 1.4,
+				"Range" : 40,
+				"Headshot" : 0.1
+				},
+			"3" : {
+				"Damage" : 150,
+				"Firerate" : 1.2,
+				"Range" : 40,
+				"Headshot" : 0.1,
+				"Upgrade" : "Firerate"
+				},
+			"6" : {
+				"Damage" : 150,
+				"Firerate" : 1.2,
+				"Range" : 40,
+				"Headshot" : 0.15,
+				"Upgrade" : "Headshot"
+				},
+			"9" : {
+				"Damage" : 200,
+				"Firerate" : 1.2,
+				"Range" : 40,
+				"Headshot" : 0.15,
+				"Upgrade" : "Damage"
+				},
+			"12" : {
+				"Damage" : 200,
+				"Firerate" : 1.2,
+				"Range" : 40,
+				"Headshot" : 0.2,
+				"Upgrade" : "Headshot"
+				},
+			"15" : {
+				"Damage" : 200,
+				"Firerate" : 1,
+				"Range" : 40,
+				"Headshot" : 0.2,
+				"Upgrade" : "Firerate"
+				}
+		}
+	},
+	"Berserker" : {
+		"Level" : 1,
+		"CostCard" : [0,5,10,20,30,40,50,60,70,80,90,100,110,130,150],
+		"CostUpgrade" : [0,1000,2000,3000,5000,7000,10000,13000,17000,21000,26000,31000,37000,43000,50000],
+		"Data" : {
+			"1" : {
+				"Damage" : 150,
+				"Firerate" : 1,
+				"Range" : 50,
+				"Bounce" : 1
+				},
+			"3" : {
+				"Damage" : 200,
+				"Firerate" : 1,
+				"Range" : 50,
+				"Bounce" : 1,
+				"Upgrade" : "Damage"
+				},
+			"6" : {
+				"Damage" : 200,
+				"Firerate" : 1,
+				"Range" : 50,
+				"Bounce" : 2,
+				"Upgrade" : "Bounce"
+				},
+			"9" : {
+				"Damage" : 200,
+				"Firerate" : 1,
+				"Range" : 80,
+				"Bounce" : 2,
+				"Upgrade" : "Range"
+				},
+			"12" : {
+				"Damage" : 200,
+				"Firerate" : 1,
+				"Range" : 80,
+				"Bounce" : 3,
+				"Upgrade" : "Bounce"
+				},
+			"15" : {
+				"Damage" : 200,
+				"Firerate" : 0.8,
+				"Range" : 80,
+				"Bounce" : 3,
+				"Upgrade" : "Firerate"
+				}
+		}
+	},
+	"Shotgun" : {
+		"Level" : 1,
+		"CostCard" : [0,5,10,20,30,40,50,60,70,80,90,100,110,130,150],
+		"CostUpgrade" : [0,1000,2000,3000,5000,7000,10000,13000,17000,21000,26000,31000,37000,43000,50000],
+		"Data" : {
+			"1" : {
+				"Damage" : 120,
+				"Firerate" : 1.2,
+				"Range" : 50,
+				"Multishot" : 2
+				},
+			"3" : {
+				"Damage" : 150,
+				"Firerate" : 1.2,
+				"Range" : 50,
+				"Multishot" : 2,
+				"Upgrade" : "Damage"
+				},
+			"6" : {
+				"Damage" : 150,
+				"Firerate" : 1.2,
+				"Range" : 50,
+				"Multishot" : 3,
+				"Upgrade" : "Multishot"
+				},
+			"9" : {
+				"Damage" : 150,
+				"Firerate" : 1,
+				"Range" : 50,
+				"Multishot" : 3,
+				"Upgrade" : "Firerate"
+				},
+			"12" : {
+				"Damage" : 150,
+				"Firerate" : 1,
+				"Range" : 50,
+				"Multishot" : 4,
+				"Upgrade" : "Multishot"
+				},
+			"15" : {
+				"Damage" : 200,
+				"Firerate" : 1,
+				"Range" : 50,
+				"Multishot" : 4,
+				"Upgrade" : "Damage"
+				}
+		}
+	},
+	"Soldier" : {
+		"Level" : 1,
+		"CostCard" : [0,5,10,20,30,40,50,60,70,80,90,100,110,130,150],
+		"CostUpgrade" : [0,1000,2000,3000,5000,7000,10000,13000,17000,21000,26000,31000,37000,43000,50000],
+		"Data" : {
+			"1" : {
+				"Damage" : 300,
+				"Firerate" : 1,
+				"Range" : 40,
+				"Critical" : 0.1
+				},
+			"3" : {
+				"Damage" : 400,
+				"Firerate" : 1,
+				"Range" : 40,
+				"Critical" : 0.1,
+				"Upgrade" : "Damage"
+				},
+			"6" : {
+				"Damage" : 400,
+				"Firerate" : 1,
+				"Range" : 40,
+				"Critical" : 0.2,
+				"Upgrade" : "Critical"
+				},
+			"9" : {
+				"Damage" : 400,
+				"Firerate" : 0.8,
+				"Range" : 40,
+				"Critical" : 0.2,
+				"Upgrade" : "Firerate"
+				},
+			"12" : {
+				"Damage" : 400,
+				"Firerate" : 0.8,
+				"Range" : 40,
+				"Critical" : 0.3,
+				"Upgrade" : "Critical"
+				},
+			"15" : {
+				"Damage" : 500,
+				"Firerate" : 0.8,
+				"Range" : 40,
+				"Critical" : 0.3,
+				"Upgrade" : "Damage"
+				}
+		}
+	},
+	"Crossbow" : {
+		"Level" : 1,
+		"CostCard" : [0,5,10,20,30,40,50,60,70,80,90,100,110,130,150],
+		"CostUpgrade" : [0,1000,2000,3000,5000,7000,10000,13000,17000,21000,26000,31000,37000,43000,50000],
+		"Data" : {
+			"1" : {
+				"Damage" : 400,
+				"Firerate" : 1.2,
+				"Range" : 80,
+				"Headshot" : 0.1
+				},
+			"3" : {
+				"Damage" : 400,
+				"Firerate" : 1,
+				"Range" : 80,
+				"Headshot" : 0.1,
+				"Upgrade" : "Firerate"
+				},
+			"6" : {
+				"Damage" : 400,
+				"Firerate" : 1,
+				"Range" : 80,
+				"Headshot" : 0.15,
+				"Upgrade" : "Headshot"
+				},
+			"9" : {
+				"Damage" : 500,
+				"Firerate" : 1,
+				"Range" : 80,
+				"Headshot" : 0.15,
+				"Upgrade" : "Damage"
+				},
+			"12" : {
+				"Damage" : 500,
+				"Firerate" : 1,
+				"Range" : 80,
+				"Headshot" : 0.2,
+				"Upgrade" : "Headshot"
+				},
+			"15" : {
+				"Damage" : 500,
+				"Firerate" : 0.8,
+				"Range" : 80,
+				"Headshot" : 0.2,
+				"Upgrade" : "Firerate"
+				}
+		}
+	},
+	"Hunter" : {
+		"Level" : 2,
+		"CostCard" : [0,5,10,20,30,40,50,60,70,80,90,100,110,130,150],
+		"CostUpgrade" : [0,1000,2000,3000,5000,7000,10000,13000,17000,21000,26000,31000,37000,43000,50000],
+		"Data" : {
+			"1" : {
+				"Damage" : 400,
+				"Firerate" : 1.2,
+				"Range" : 80,
+				"Multishot" : 2
+				},
+			"3" : {
+				"Damage" : 450,
+				"Firerate" : 1.2,
+				"Range" : 80,
+				"Multishot" : 2,
+				"Upgrade" : "Damage"
+				},
+			"6" : {
+				"Damage" : 450,
+				"Firerate" : 1.2,
+				"Range" : 80,
+				"Multishot" : 3,
+				"Upgrade" : "Multishot"
+				},
+			"9" : {
+				"Damage" : 450,
+				"Firerate" : 1,
+				"Range" : 80,
+				"Multishot" : 3,
+				"Upgrade" : "Firerate"
+				},
+			"12" : {
+				"Damage" : 450,
+				"Firerate" : 1,
+				"Range" : 80,
+				"Multishot" : 4,
+				"Upgrade" : "Multishot"
+				},
+			"15" : {
+				"Damage" : 500,
+				"Firerate" : 1,
+				"Range" : 80,
+				"Multishot" : 4,
+				"Upgrade" : "Damage"
+				}
+		}
+	},
+	"Ninja" : {
+		"Level" : 2,
+		"CostCard" : [0,5,10,20,30,40,50,60,70,80,90,100,110,130,150],
+		"CostUpgrade" : [0,1000,2000,3000,5000,7000,10000,13000,17000,21000,26000,31000,37000,43000,50000],
+		"Data" : {
+			"1" : {
+				"Damage" : 400,
+				"Firerate" : 1.4,
+				"Range" : 50,
+				"Bounce" : 1
+				},
+			"3" : {
+				"Damage" : 400,
+				"Firerate" : 1.2,
+				"Range" : 50,
+				"Bounce" : 1,
+				"Upgrade" : "Firerate"
+				},
+			"6" : {
+				"Damage" : 400,
+				"Firerate" : 1.2,
+				"Range" : 50,
+				"Bounce" : 2,
+				"Upgrade" : "Bounce"
+				},
+			"9" : {
+				"Damage" : 400,
+				"Firerate" : 1.2,
+				"Range" : 80,
+				"Bounce" : 2,
+				"Upgrade" : "Range"
+				},
+			"12" : {
+				"Damage" : 400,
+				"Firerate" : 1.2,
+				"Range" : 80,
+				"Bounce" : 3,
+				"Upgrade" : "Bounce"
+				},
+			"15" : {
+				"Damage" : 400,
+				"Firerate" : 1,
+				"Range" : 80,
+				"Bounce" : 3,
+				"Upgrade" : "Firerate"
+				}
+		}
+	},
+	"Sheriff" : {
+		"Level" : 2,
+		"CostCard" : [0,5,10,20,30,40,50,60,70,80,90,100,110,130,150],
+		"CostUpgrade" : [0,1000,2000,3000,5000,7000,10000,13000,17000,21000,26000,31000,37000,43000,50000],
+		"Data" : {
+			"1" : {
+				"Damage" : 800,
+				"Firerate" : 1.2,
+				"Range" : 50,
+				"Headshot" : 0.1
+				},
+			"3" : {
+				"Damage" : 800,
+				"Firerate" : 1.2,
+				"Range" : 80,
+				"Headshot" : 0.1,
+				"Upgrade" : "Range"
+				},
+			"6" : {
+				"Damage" : 800,
+				"Firerate" : 1.2,
+				"Range" : 80,
+				"Headshot" : 0.15,
+				"Upgrade" : "Headshot"
+				},
+			"9" : {
+				"Damage" : 800,
+				"Firerate" : 1,
+				"Range" : 80,
+				"Headshot" : 0.15,
+				"Upgrade" : "Firerate"
+				},
+			"12" : {
+				"Damage" : 800,
+				"Firerate" : 1,
+				"Range" : 80,
+				"Headshot" : 0.2,
+				"Upgrade" : "Headshot"
+				},
+			"15" : {
+				"Damage" : 1000,
+				"Firerate" : 1,
+				"Range" : 80,
+				"Headshot" : 0.2,
+				"Upgrade" : "Damage"
+				}
+		}
+	},
+	"Sparta" : {
+		"Level" : 2,
+		"CostCard" : [0,5,10,20,30,40,50,60,70,80,90,100,110,130,150],
+		"CostUpgrade" : [0,1000,2000,3000,5000,7000,10000,13000,17000,21000,26000,31000,37000,43000,50000],
+		"Data" : {
+			"1" : {
+				"Damage" : 1000,
+				"Firerate" : 1.2,
+				"Range" : 40,
+				"Critical" : 0.1
+				},
+			"3" : {
+				"Damage" : 1200,
+				"Firerate" : 1.2,
+				"Range" : 40,
+				"Critical" : 0.1,
+				"Upgrade" : "Damage"
+				},
+			"6" : {
+				"Damage" : 1200,
+				"Firerate" : 1.2,
+				"Range" : 40,
+				"Critical" : 0.2,
+				"Upgrade" : "Critical"
+				},
+			"9" : {
+				"Damage" : 1200,
+				"Firerate" : 1,
+				"Range" : 40,
+				"Critical" : 0.2,
+				"Upgrade" : "Firerate"
+				},
+			"12" : {
+				"Damage" : 1200,
+				"Firerate" : 1,
+				"Range" : 40,
+				"Critical" : 0.3,
+				"Upgrade" : "Critical"
+				},
+			"15" : {
+				"Damage" : 1400,
+				"Firerate" : 1,
+				"Range" : 40,
+				"Critical" : 0.3,
+				"Upgrade" : "Damage"
+				}
+		}
+	},
+	"Jester" : {
+		"Level" : 3,
+		"CostCard" : [0,5,10,20,30,40,50,60,70,80,90,100,110,130,150],
+		"CostUpgrade" : [0,1000,2000,3000,5000,7000,10000,13000,17000,21000,26000,31000,37000,43000,50000],
+		"Data" : {
+			"1" : {
+				"Damage" : 1200,
+				"Firerate" : 1.4,
+				"Range" : 50,
+				"Bounce" : 1
+				},
+			"3" : {
+				"Damage" : 1200,
+				"Firerate" : 1.2,
+				"Range" : 50,
+				"Bounce" : 1,
+				"Upgrade" : "Firerate"
+				},
+			"6" : {
+				"Damage" : 1200,
+				"Firerate" : 1.2,
+				"Range" : 50,
+				"Bounce" : 2,
+				"Upgrade" : "Bounce"
+				},
+			"9" : {
+				"Damage" : 1200,
+				"Firerate" : 1.2,
+				"Range" : 80,
+				"Bounce" : 2,
+				"Upgrade" : "Range"
+				},
+			"12" : {
+				"Damage" : 1200,
+				"Firerate" : 1.2,
+				"Range" : 80,
+				"Bounce" : 3,
+				"Upgrade" : "Bounce"
+				},
+			"15" : {
+				"Damage" : 1400,
+				"Firerate" : 1.2,
+				"Range" : 80,
+				"Bounce" : 3,
+				"Upgrade" : "Damage"
+				}
+		}
+	},
+	"Needler" : {
+		"Level" : 3,
+		"CostCard" : [0,5,10,20,30,40,50,60,70,80,90,100,110,130,150],
+		"CostUpgrade" : [0,1000,2000,3000,5000,7000,10000,13000,17000,21000,26000,31000,37000,43000,50000],
+		"Data" : {
+			"1" : {
+				"Damage" : 1800,
+				"Firerate" : 1,
+				"Range" : 40,
+				"Critical" : 0.1
+				},
+			"3" : {
+				"Damage" : 1800,
+				"Firerate" : 0.8,
+				"Range" : 40,
+				"Critical" : 0.1,
+				"Upgrade" : "Firerate"
+				},
+			"6" : {
+				"Damage" : 1800,
+				"Firerate" : 0.8,
+				"Range" : 40,
+				"Critical" : 0.2,
+				"Upgrade" : "Critical"
+				},
+			"9" : {
+				"Damage" : 2000,
+				"Firerate" : 0.8,
+				"Range" : 40,
+				"Critical" : 0.2,
+				"Upgrade" : "Damage"
+				},
+			"12" : {
+				"Damage" : 2000,
+				"Firerate" : 0.8,
+				"Range" : 40,
+				"Critical" : 0.3,
+				"Upgrade" : "Critical"
+				},
+			"15" : {
+				"Damage" : 2000,
+				"Firerate" : 0.6,
+				"Range" : 40,
+				"Critical" : 0.3,
+				"Upgrade" : "Firerate"
+				}
+		}
+	},
+	"Scientist" : {
+		"Level" : 3,
+		"CostCard" : [0,5,10,20,30,40,50,60,70,80,90,100,110,130,150],
+		"CostUpgrade" : [0,1000,2000,3000,5000,7000,10000,13000,17000,21000,26000,31000,37000,43000,50000],
+		"Data" : {
+			"1" : {
+				"Damage" : 1200,
+				"Firerate" : 1.2,
+				"Range" : 50,
+				"Multishot" : 2
+				},
+			"3" : {
+				"Damage" : 1200,
+				"Firerate" : 1.2,
+				"Range" : 80,
+				"Multishot" : 2,
+				"Upgrade" : "Range"
+				},
+			"6" : {
+				"Damage" : 1200,
+				"Firerate" : 1.2,
+				"Range" : 80,
+				"Multishot" : 3,
+				"Upgrade" : "Multishot"
+				},
+			"9" : {
+				"Damage" : 1400,
+				"Firerate" : 1.2,
+				"Range" : 80,
+				"Multishot" : 3,
+				"Upgrade" : "Damage"
+				},
+			"12" : {
+				"Damage" : 1400,
+				"Firerate" : 1.2,
+				"Range" : 80,
+				"Multishot" : 4,
+				"Upgrade" : "Multishot"
+				},
+			"15" : {
+				"Damage" : 1400,
+				"Firerate" : 1,
+				"Range" : 80,
+				"Multishot" : 4,
+				"Upgrade" : "Firerate"
+				}
+		}
+	},
+	"Knight" : {
+		"Level" : 3,
+		"CostCard" : [0,5,10,20,30,40,50,60,70,80,90,100,110,130,150],
+		"CostUpgrade" : [0,1000,2000,3000,5000,7000,10000,13000,17000,21000,26000,31000,37000,43000,50000],
+		"Data" : {
+			"1" : {
+				"Damage" : 2600,
+				"Firerate" : 1.4,
+				"Range" : 40,
+				"Headshot" : 0.1
+				},
+			"3" : {
+				"Damage" : 2800,
+				"Firerate" : 1.4,
+				"Range" : 40,
+				"Headshot" : 0.1,
+				"Upgrade" : "Damage"
+				},
+			"6" : {
+				"Damage" : 2800,
+				"Firerate" : 1.4,
+				"Range" : 40,
+				"Headshot" : 0.15,
+				"Upgrade" : "Headshot"
+				},
+			"9" : {
+				"Damage" : 2800,
+				"Firerate" : 1.2,
+				"Range" : 40,
+				"Headshot" : 0.15,
+				"Upgrade" : "Firerate"
+				},
+			"12" : {
+				"Damage" : 2800,
+				"Firerate" : 1.2,
+				"Range" : 40,
+				"Headshot" : 0.2,
+				"Upgrade" : "Headshot"
+				},
+			"15" : {
+				"Damage" : 3000,
+				"Firerate" : 1.2,
+				"Range" : 40,
+				"Headshot" : 0.2,
+				"Upgrade" : "Damage"
+				}
+		}
+	},
+	"Monk" : {
+		"Level" : 4,
+		"CostCard" : [0,5,10,20,30,40,50,60,70,80,90,100,110,130,150],
+		"CostUpgrade" : [0,1000,2000,3000,5000,7000,10000,13000,17000,21000,26000,31000,37000,43000,50000],
+		"Data" : {
+			"1" : {
+				"Damage" : 3500,
+				"Firerate" : 1.2,
+				"Range" : 80,
+				"Bounce" : 1
+				},
+			"3" : {
+				"Damage" : 3500,
+				"Firerate" : 1,
+				"Range" : 80,
+				"Bounce" : 1,
+				"Upgrade" : "Firerate"
+				},
+			"6" : {
+				"Damage" : 3500,
+				"Firerate" : 1,
+				"Range" : 80,
+				"Bounce" : 2,
+				"Upgrade" : "Bounce"
+				},
+			"9" : {
+				"Damage" : 4000,
+				"Firerate" : 1,
+				"Range" : 80,
+				"Bounce" : 2,
+				"Upgrade" : "Damage"
+				},
+			"12" : {
+				"Damage" : 4000,
+				"Firerate" : 1,
+				"Range" : 80,
+				"Bounce" : 3,
+				"Upgrade" : "Bounce"
+				},
+			"15" : {
+				"Damage" : 4000,
+				"Firerate" : 0.8,
+				"Range" : 80,
+				"Bounce" : 3,
+				"Upgrade" : "Firerate"
+				}
+		}
+	},
+	"Neptune" : {
+		"Level" : 4,
+		"CostCard" : [0,5,10,20,30,40,50,60,70,80,90,100,110,130,150],
+		"CostUpgrade" : [0,1000,2000,3000,5000,7000,10000,13000,17000,21000,26000,31000,37000,43000,50000],
+		"Data" : {
+			"1" : {
+				"Damage" : 6000,
+				"Firerate" : 1.2,
+				"Range" : 40,
+				"Headshot" : 0.1
+				},
+			"3" : {
+				"Damage" : 7000,
+				"Firerate" : 1.2,
+				"Range" : 40,
+				"Headshot" : 0.1,
+				"Upgrade" : "Damage"
+				},
+			"6" : {
+				"Damage" : 7000,
+				"Firerate" : 1.2,
+				"Range" : 40,
+				"Headshot" : 0.15,
+				"Upgrade" : "Headshot"
+				},
+			"9" : {
+				"Damage" : 7000,
+				"Firerate" : 1,
+				"Range" : 40,
+				"Headshot" : 0.15,
+				"Upgrade" : "Firerate"
+				},
+			"12" : {
+				"Damage" : 7000,
+				"Firerate" : 1,
+				"Range" : 40,
+				"Headshot" : 0.2,
+				"Upgrade" : "Headshot"
+				},
+			"15" : {
+				"Damage" : 8000,
+				"Firerate" : 1,
+				"Range" : 40,
+				"Headshot" : 0.2,
+				"Upgrade" : "Damage"
+				}
+		}
+	},
+	"Monkey" : {
+		"Level" : 4,
+		"CostCard" : [0,5,10,20,30,40,50,60,70,80,90,100,110,130,150],
+		"CostUpgrade" : [0,1000,2000,3000,5000,7000,10000,13000,17000,21000,26000,31000,37000,43000,50000],
+		"Data" : {
+			"1" : {
+				"Damage" : 3000,
+				"Firerate" : 1,
+				"Range" : 50,
+				"Multishot" : 2
+				},
+			"3" : {
+				"Damage" : 3000,
+				"Firerate" : 1,
+				"Range" : 80,
+				"Multishot" : 2,
+				"Upgrade" : "Range"
+				},
+			"6" : {
+				"Damage" : 3000,
+				"Firerate" : 1,
+				"Range" : 80,
+				"Multishot" : 3,
+				"Upgrade" : "Multishot"
+				},
+			"9" : {
+				"Damage" : 3500,
+				"Firerate" : 1,
+				"Range" : 80,
+				"Multishot" : 3,
+				"Upgrade" : "Damage"
+				},
+			"12" : {
+				"Damage" : 3500,
+				"Firerate" : 1,
+				"Range" : 80,
+				"Multishot" : 4,
+				"Upgrade" : "Multishot"
+				},
+			"15" : {
+				"Damage" : 3500,
+				"Firerate" : 0.8,
+				"Range" : 80,
+				"Multishot" : 4,
+				"Upgrade" : "Firerate"
+				}
+		}
+	},
+	"Paladin" : {
+		"Level" : 4,
+		"CostCard" : [0,5,10,20,30,40,50,60,70,80,90,100,110,130,150],
+		"CostUpgrade" : [0,1000,2000,3000,5000,7000,10000,13000,17000,21000,26000,31000,37000,43000,50000],
+		"Data" : {
+			"1" : {
+				"Damage" : 8000,
+				"Firerate" : 1.2,
+				"Range" : 40,
+				"Critical" : 0.1
+				},
+			"3" : {
+				"Damage" : 9000,
+				"Firerate" : 1.2,
+				"Range" : 40,
+				"Critical" : 0.1,
+				"Upgrade" : "Damage"
+				},
+			"6" : {
+				"Damage" : 9000,
+				"Firerate" : 1.2,
+				"Range" : 40,
+				"Critical" : 0.2,
+				"Upgrade" : "Critical"
+				},
+			"9" : {
+				"Damage" : 10000,
+				"Firerate" : 1.2,
+				"Range" : 40,
+				"Critical" : 0.2,
+				"Upgrade" : "Damage"
+				},
+			"12" : {
+				"Damage" : 10000,
+				"Firerate" : 1.2,
+				"Range" : 40,
+				"Critical" : 0.3,
+				"Upgrade" : "Critical"
+				},
+			"15" : {
+				"Damage" : 10000,
+				"Firerate" : 1,
+				"Range" : 40,
+				"Critical" : 0.3,
+				"Upgrade" : "Firerate"
+				}
+		}
+	},
+	"Pyromaniac" : {
+		"Level" : 5,
+		"Starter" : 1,
+		"CostGem" : [0,400,600,800,1000,1200,1400,1600,1800,2000,2200,2400,2600,2800,3000],
+		"CostUpgrade" : [0,1000,2000,3000,5000,7000,10000,13000,17000,21000,26000,31000,37000,43000,50000],
+		"CostPurchase" : 3000,
+		"Data" : {
+			"1" : {
+				"Damage" : 8000,
+				"Firerate" : 1.2,
+				"Range" : 80,
+				"Burn" : 0.05,
+				"Explosive" : 2000
+				},
+			"3" : {
+				"Damage" : 10000,
+				"Firerate" : 1.2,
+				"Range" : 80,
+				"Burn" : 0.05,
+				"Explosive" : 2000,
+				"Upgrade" : "Damage"
+				},
+			"6" : {
+				"Damage" : 10000,
+				"Firerate" : 1.2,
+				"Range" : 80,
+				"Burn" : 0.1,
+				"Explosive" : 2000,
+				"Upgrade" : "Burn"
+				},
+			"9" : {
+				"Damage" : 10000,
+				"Firerate" : 1,
+				"Range" : 80,
+				"Burn" : 0.1,
+				"Explosive" : 2000,
+				"Upgrade" : "Firerate"
+				},
+			"12" : {
+				"Damage" : 10000,
+				"Firerate" : 1,
+				"Range" : 80,
+				"Burn" : 0.15,
+				"Explosive" : 2000,
+				"Upgrade" : "Burn"
+				},
+			"15" : {
+				"Damage" : 12000,
+				"Firerate" : 1,
+				"Range" : 80,
+				"Burn" : 0.15,
+				"Explosive" : 2000,
+				"Upgrade" : "Damage"
+				}
+		}
+	},
+	"Engineer" : {
+		"Level" : 5,
+		"Starter" : 1,
+		"CostGem" : [0,400,600,800,1000,1200,1400,1600,1800,2000,2200,2400,2600,2800,3000],
+		"CostUpgrade" : [0,1000,2000,3000,5000,7000,10000,13000,17000,21000,26000,31000,37000,43000,50000],
+		"CostPurchase" : 3000,
+		"Data" : {
+			"1" : {
+				"Damage" : 6000,
+				"Firerate" : 1.4,
+				"Range" : 80,
+				"Drone" : 1
+				},
+			"3" : {
+				"Damage" : 6000,
+				"Firerate" : 1.2,
+				"Range" : 80,
+				"Drone" : 1,
+				"Upgrade" : "Firerate"
+				},
+			"6" : {
+				"Damage" : 6000,
+				"Firerate" : 1.2,
+				"Range" : 80,
+				"Drone" : 2,
+				"Upgrade" : "Drone"
+				},
+			"9" : {
+				"Damage" : 8000,
+				"Firerate" : 1.2,
+				"Range" : 80,
+				"Drone" : 2,
+				"Upgrade" : "Damage"
+				},
+			"12" : {
+				"Damage" : 8000,
+				"Firerate" : 1.2,
+				"Range" : 80,
+				"Drone" : 3,
+				"Upgrade" : "Drone"
+				},
+			"15" : {
+				"Damage" : 8000,
+				"Firerate" : 1,
+				"Range" : 80,
+				"Drone" : 3,
+				"Upgrade" : "Firerate"
+				}
+		}
+	},
+	"Rpg" : {
+		"Level" : 5,
+		"CostGem" : [0,400,600,800,1000,1200,1400,1600,1800,2000,2200,2400,2600,2800,3000],
+		"CostUpgrade" : [0,1000,2000,3000,5000,7000,10000,13000,17000,21000,26000,31000,37000,43000,50000],
+		"CostPurchase" : 3000,
+		"Data" : {
+			"1" : {
+				"Damage" : 6000,
+				"Firerate" : 4,
+				"Range" : 100,
+				"Missile" : 2,
+				"Explosive" : 6000
+				},
+			"3" : {
+				"Damage" : 8000,
+				"Firerate" : 4,
+				"Range" : 100,
+				"Missile" : 2,
+				"Explosive" : 8000,
+				"Upgrade" : "Explosive"
+				},
+			"6" : {
+				"Damage" : 8000,
+				"Firerate" : 4,
+				"Range" : 100,
+				"Missile" : 4,
+				"Explosive" : 8000,
+				"Upgrade" : "Missile"
+				},
+			"9" : {
+				"Damage" : 8000,
+				"Firerate" : 3,
+				"Range" : 100,
+				"Missile" : 4,
+				"Explosive" : 8000,
+				"Upgrade" : "Firerate"
+				},
+			"12" : {
+				"Damage" : 8000,
+				"Firerate" : 3,
+				"Range" : 100,
+				"Missile" : 6,
+				"Explosive" : 8000,
+				"Upgrade" : "Missile"
+				},
+			"15" : {
+				"Damage" : 10000,
+				"Firerate" : 3,
+				"Range" : 100,
+				"Missile" : 6,
+				"Explosive" : 10000,
+				"Upgrade" : "Explosive"
+				}
+		}
+	},
+	"Cyber" : {
+		"Level" : 5,
+		"CostGem" : [0,400,600,800,1000,1200,1400,1600,1800,2000,2200,2400,2600,2800,3000],
+		"CostUpgrade" : [0,1000,2000,3000,5000,7000,10000,13000,17000,21000,26000,31000,37000,43000,50000],
+		"CostPurchase" : 3000,
+		"Data" : {
+			"1" : {
+				"Damage" : 8000,
+				"Firerate" : 1.2,
+				"Range" : 80,
+				"Explosive" : 6000
+				},
+			"3" : {
+				"Damage" : 8000,
+				"Firerate" : 1,
+				"Range" : 80,
+				"Explosive" : 6000,
+				"Upgrade" : "Firerate"
+				},
+			"6" : {
+				"Damage" : 8000,
+				"Firerate" : 1,
+				"Range" : 80,
+				"Explosive" : 8000,
+				"Upgrade" : "Explosive"
+				},
+			"9" : {
+				"Damage" : 10000,
+				"Firerate" : 1,
+				"Range" : 80,
+				"Explosive" : 8000,
+				"Upgrade" : "Damage"
+				},
+			"12" : {
+				"Damage" : 10000,
+				"Firerate" : 1,
+				"Range" : 80,
+				"Explosive" : 10000,
+				"Upgrade" : "Explosive"
+				},
+			"15" : {
+				"Damage" : 10000,
+				"Firerate" : 0.8,
+				"Range" : 80,
+				"Explosive" : 10000,
+				"Upgrade" : "Firerate"
+				}
+		}
+	},
+	"Mage" : {
+		"Level" : 5,
+		"CostGem" : [0,400,600,800,1000,1200,1400,1600,1800,2000,2200,2400,2600,2800,3000],
+		"CostUpgrade" : [0,1000,2000,3000,5000,7000,10000,13000,17000,21000,26000,31000,37000,43000,50000],
+		"CostPurchase" : 3000,
+		"Data" : {
+			"1" : {
+				"Damage" : 20000,
+				"Firerate" : 1,
+				"Range" : 120
+				},
+			"3" : {
+				"Damage" : 30,
+				"Firerate" : 0.5,
+				"Range" : 50,
+				"Upgrade" : "Damage"
+				},
+			"6" : {
+				"Damage" : 40,
+				"Firerate" : 0.5,
+				"Range" : 60,
+				"Upgrade" : "Range"
+				},
+			"9" : {
+				"Damage" : 40,
+				"Firerate" : 0.5,
+				"Range" : 60,
+				"Upgrade" : "Damage"
+				},
+			"12" : {
+				"Damage" : 60,
+				"Firerate" : 0.5,
+				"Range" : 60,
+				"Upgrade" : "Damage"
+				},
+			"15" : {
+				"Damage" : 100,
+				"Firerate" : 0.5,
+				"Range" : 60,
+				"Upgrade" : "Damage"
+				}
+		}
+	},
+	"Zeus" : {
+		"Level" : 5,
+		"CostGem" : [0,400,600,800,1000,1200,1400,1600,1800,2000,2200,2400,2600,2800,3000],
+		"CostUpgrade" : [0,1000,2000,3000,5000,7000,10000,13000,17000,21000,26000,31000,37000,43000,50000],
+		"CostPurchase" : 3000,
+		"Data" : {
+			"1" : {
+				"Damage" : 20000,
+				"Firerate" : 1,
+				"Range" : 120
+				},
+			"3" : {
+				"Damage" : 30,
+				"Firerate" : 0.5,
+				"Range" : 50,
+				"Upgrade" : "Damage"
+				},
+			"6" : {
+				"Damage" : 40,
+				"Firerate" : 0.5,
+				"Range" : 60,
+				"Upgrade" : "Range"
+				},
+			"9" : {
+				"Damage" : 40,
+				"Firerate" : 0.5,
+				"Range" : 60,
+				"Upgrade" : "Damage"
+				},
+			"12" : {
+				"Damage" : 60,
+				"Firerate" : 0.5,
+				"Range" : 60,
+				"Upgrade" : "Damage"
+				},
+			"15" : {
+				"Damage" : 100,
+				"Firerate" : 0.5,
+				"Range" : 60,
+				"Upgrade" : "Damage"
+				}
+		}
+	},
+	"Timber" : {
+		"Level" : 5,
+		"CostGem" : [0,400,600,800,1000,1200,1400,1600,1800,2000,2200,2400,2600,2800,3000],
+		"CostUpgrade" : [0,1000,2000,3000,5000,7000,10000,13000,17000,21000,26000,31000,37000,43000,50000],
+		"CostPurchase" : 3000,
+		"Data" : {
+			"1" : {
+				"Damage" : 20000,
+				"Firerate" : 1,
+				"Range" : 50
+				},
+			"3" : {
+				"Damage" : 30,
+				"Firerate" : 0.5,
+				"Range" : 50,
+				"Upgrade" : "Damage"
+				},
+			"6" : {
+				"Damage" : 40,
+				"Firerate" : 0.5,
+				"Range" : 60,
+				"Upgrade" : "Range"
+				},
+			"9" : {
+				"Damage" : 40,
+				"Firerate" : 0.5,
+				"Range" : 60,
+				"Upgrade" : "Damage"
+				},
+			"12" : {
+				"Damage" : 60,
+				"Firerate" : 0.5,
+				"Range" : 60,
+				"Upgrade" : "Damage"
+				},
+			"15" : {
+				"Damage" : 100,
+				"Firerate" : 0.5,
+				"Range" : 60,
+				"Upgrade" : "Damage"
+				}
+		}
+	},
+	"Warlock" : {
+		"Level" : 5,
+		"CostGem" : [0,400,600,800,1000,1200,1400,1600,1800,2000,2200,2400,2600,2800,3000],
+		"CostUpgrade" : [0,1000,2000,3000,5000,7000,10000,13000,17000,21000,26000,31000,37000,43000,50000],
+		"CostPurchase" : 3000,
+		"Data" : {
+			"1" : {
+				"Damage" : 20000,
+				"Firerate" : 1,
+				"Range" : 50
+				},
+			"3" : {
+				"Damage" : 30,
+				"Firerate" : 0.5,
+				"Range" : 50,
+				"Upgrade" : "Damage"
+				},
+			"6" : {
+				"Damage" : 40,
+				"Firerate" : 0.5,
+				"Range" : 60,
+				"Upgrade" : "Range"
+				},
+			"9" : {
+				"Damage" : 40,
+				"Firerate" : 0.5,
+				"Range" : 60,
+				"Upgrade" : "Damage"
+				},
+			"12" : {
+				"Damage" : 60,
+				"Firerate" : 0.5,
+				"Range" : 60,
+				"Upgrade" : "Damage"
+				},
+			"15" : {
+				"Damage" : 100,
+				"Firerate" : 0.5,
+				"Range" : 60,
+				"Upgrade" : "Damage"
+				}
+		}
+	}
+},
+"HeroMergeData" : [
+	["Knife","Boomerang","Nomad","Fisherman"],
+	["Berserker","Shotgun","Soldier","Crossbow"],
+	["Hunter","Ninja","Sheriff","Sparta"],
+	["Jester","Needler","Scientist","Knight"],
+	["Monk","Neptune","Monkey","Paladin"]
+],
+"HeroFusionData" : {
+	"Pyromaniac" : ["Monkey","Jester","Ninja"],
+	"Engineer" : ["Monk","Scientist","Hunter"],
+	"Rpg" : ["Paladin","Knight","Sparta"],
+	"Cyber" : ["Neptune","Needler","Sheriff"]
+},
+
+"MissionList" : ["Zombie_Normal","Zombie_Slime","Zombie_Helmet","Zombie_Giant","Zombie_Poison","Zombie_Scarecrow","Zombie_Blood","Zombie_Reaper","Zombie_Funeral","Zombie_Cherubin","Zombie_Bishop","Zombie_Angel","Zombie_Waiter","Zombie_Pizzaiolo","Zombie_Butcher","Zombie_Chef","Zombie_Pirate","Unit_Merge","Unit_Buy","Unit_1","Unit_2","Unit_3","Unit_4","Unit_5","Dice_Roll","Perks_Buy","Cash_Spend","Zombie_Alert"],
+"MissionData" : {
+	
+	"Zombie_Normal" : {
+		"Description" : 
+		["Kill basic zombies",
+		"Tue des zombies basiques",
+		"Mata a los zombis basicos",
+		"Matar os zombies basicos",
+		"Membunuh zombie dasar",
+		"Temel zombileri oldur"],
+		"Value" : 100,
+		"Currency" : "Cash",
+		"CurrencyValue" : 100
+		},
+	"Zombie_Slime" : {
+		"Description" : 
+		["Kill slime zombie",
+		"Tue le zombie slime",
+		"Matar zombie limo",
+		"Matar o zombie de lodo",
+		"Membunuh zombie lendir",
+		"Sumuksu zombiyi oldur"],
+		"Value" : 1,
+		"Currency" : "Coin",
+		"CurrencyValue" : 2
+		},
+	"Zombie_Helmet" : {
+		"Description" : 
+		["Kill helmet zombies",
+		"Tue des zombies casques",
+		"Mata a los zombis del casco",
+		"Matar zombies de capacete",
+		"Membunuh zombie helm",
+		"Kaskli zombileri oldur"],
+		"Value" : 100,
+		"Currency" : "Cash",
+		"CurrencyValue" : 100
+		},
+	"Zombie_Giant" : {
+		"Description" : 
+		["Kill giant zombie",
+		"Tue le zombie geant",
+		"Mata al zombi gigante",
+		"Matar um zombie gigante",
+		"Bunuh zombie raksasa",
+		"Dev zombiyi oldur"],
+		"Value" : 1,
+		"Currency" : "Coin",
+		"CurrencyValue" : 2
+		},
+	"Zombie_Poison" : {
+		"Description" : 
+		["Kill poison zombies",
+		"Tue des zombies poisons",
+		"Mata a los zombis venenosos",
+		"Matar zombies envenenados",
+		"Bunuh zombie beracun",
+		"Zehirli zombileri oldur"],
+		"Value" : 100,
+		"Currency" : "Cash",
+		"CurrencyValue" : 100
+		},
+	"Zombie_Scarecrow" : {
+		"Description" : 
+		["Kill scarecrow zombie",
+		"Tue le zombie epouvantail",
+		"Matar zombie espantapajaros",
+		"Matar o zombie espantalho",
+		"Bunuh zombie orang-orangan sawah",
+		"Korkuluk zombisini oldur"],
+		"Value" : 1,
+		"Currency" : "Coin",
+		"CurrencyValue" : 2
+		},
+	"Zombie_Blood" : {
+		"Description" : 
+		["Kill blood zombies",
+		"Tue des zombies sanglants",
+		"Mata a los zombis de sangre",
+		"Matar zombies de sangue",
+		"Bunuh zombie darah",
+		"Kanli zombileri oldur"],
+		"Value" : 100,
+		"Currency" : "Cash",
+		"CurrencyValue" : 100
+		},
+	"Zombie_Reaper" : {
+		"Description" : 
+		["Kill reaper zombie",
+		"Tue le zombie faucheur",
+		"Matar zombie parca",
+		"Matar o zombie ceifeiro",
+		"Bunuh zombie reaper",
+		"Orakci zombiyi oldur"],
+		"Value" : 1,
+		"Currency" : "Coin",
+		"CurrencyValue" : 2
+		},
+	"Zombie_Funeral" : {
+		"Description" : 
+		["Kill funeral zombies",
+		"Tue des zombies funeraires",
+		"Matar zombis funerarios",
+		"Matar os zombies do funeral",
+		"Membunuh zombie pemakaman",
+		"Cenaze zombilerini oldur"],
+		"Value" : 100,
+		"Currency" : "Cash",
+		"CurrencyValue" : 100
+		},
+	"Zombie_Cherubin" : {
+		"Description" : 
+		["Kill cherubin zombie",
+		"Tue le zombie cherubin",
+		"Matar zombie querubin",
+		"Matar o querubim zombie",
+		"Membunuh zombie kerubin",
+		"Cherubin zombisini oldur"],
+		"Value" : 1,
+		"Currency" : "Coin",
+		"CurrencyValue" : 2
+		},
+	"Zombie_Bishop" : {
+		"Description" : 
+		["Kill bishop zombies",
+		"Tue des zombies eveques",
+		"Mata a los zombis obispo",
+		"Matar os bispos zombies",
+		"Bunuh zombie uskup",
+		"Piskopos zombileri oldur"],
+		"Value" : 100,
+		"Currency" : "Cash",
+		"CurrencyValue" : 100
+		},
+	"Zombie_Angel" : {
+		"Description" : 
+		["Kill angel zombie",
+		"Tue le zombie ange",
+		"Matar zombie angel",
+		"Matar o anjo zombie",
+		"Membunuh zombie malaikat",
+		"Melek zombiyi oldur"],
+		"Value" : 1,
+		"Currency" : "Coin",
+		"CurrencyValue" : 2
+		},
+	"Zombie_Waiter" : {
+		"Description" : 
+		["Kill waiter zombies",
+		"Tue des zombies serveurs",
+		"Mata a los zombis camareros",
+		"Matar zombies empregados de mesa",
+		"Bunuh zombie pelayan",
+		"Garson zombileri oldur"],
+		"Value" : 100,
+		"Currency" : "Cash",
+		"CurrencyValue" : 100
+		},
+	"Zombie_Pizzaiolo" : {
+		"Description" : 
+		["Kill pizzaiolo zombie",
+		"Tue le zombie pizzaiolo",
+		"Matar zombie pizzaiolo",
+		"Matar o zombie pizzaiolo",
+		"Bunuh zombie pizzaiolo",
+		"Pizzaci zombiyi oldur"],
+		"Value" : 1,
+		"Currency" : "Coin",
+		"CurrencyValue" : 2
+		},
+	"Zombie_Butcher" : {
+		"Description" : 
+		["Kill butcher zombies",
+		"Tue des zombies bouchers",
+		"Mata zombis carniceros",
+		"Matar zombies carniceiros",
+		"Membunuh zombie tukang daging",
+		"Kasap zombileri oldur"],
+		"Value" : 100,
+		"Currency" : "Cash",
+		"CurrencyValue" : 100
+		},
+	"Zombie_Chef" : {
+		"Description" : 
+		["Kill chef zombie",
+		"Tue le zombie chef",
+		"Mata al chef zombi",
+		"Matar o chefe zombie",
+		"Bunuh zombie koki",
+		"Sef zombiyi oldur"],
+		"Value" : 1,
+		"Currency" : "Coin",
+		"CurrencyValue" : 2
+		},
+	"Zombie_Pirate" : {
+		"Description" : 
+		["Kill pirate zombie",
+		"Tue le zombie pirate",
+		"Mata al zombi pirata",
+		"Matar o zombie pirata",
+		"Bunuh zombie bajak laut",
+		"Korsan zombileri oldur"],
+		"Value" : 1,
+		"Currency" : "Coin",
+		"CurrencyValue" : 2
+		},
+	"Unit_Merge" : {
+		"Description" : 
+		["Merge units",
+		"Fusionne des unites",
+		"Fusionar unidades",
+		"Fundir unidades",
+		"Gabungkan unit",
+		"Birimleri birlestirme"],
+		"Value" : 10,
+		"Currency" : "Cash",
+		"CurrencyValue" : 100
+		},
+	"Unit_Buy" : {
+		"Description" : 
+		["Buy units",
+		"Achete des unites",
+		"Comprar unidades",
+		"Comprar unidades",
+		"Beli unit",
+		"Birim satin alin"],
+		"Value" : 20,
+		"Currency" : "Cash",
+		"CurrencyValue" : 100
+		},
+	"Unit_1" : {
+		"Description" : 
+		["Summon uncommon units",
+		"Invoque des unites peu communes",
+		"Invocar unidades poco comunes",
+		"Invocar unidades invulgares",
+		"Memanggil unit yang tidak biasa",
+		"Yaygin olmayan birimleri cagirma"],
+		"Value" : 10,
+		"Currency" : "Coin",
+		"CurrencyValue" : 1
+		},
+	"Unit_2" : {
+		"Description" : 
+		["Summon rare units",
+		"Invoque des unites rares",
+		"Invocar unidades raras",
+		"Invocar unidades raras",
+		"Memanggil unit langka",
+		"Nadir birimleri cagirma"],
+		"Value" : 8,
+		"Currency" : "Coin",
+		"CurrencyValue" : 1
+		},
+	"Unit_3" : {
+		"Description" : 
+		["Summon epic units",
+		"Invoque des unites epiques",
+		"Invocar unidades epicas",
+		"Invocar unidades epicas",
+		"Memanggil unit epik",
+		"Destansi birimleri cagirin"],
+		"Value" : 6,
+		"Currency" : "Coin",
+		"CurrencyValue" : 1
+		},
+	"Unit_4" : {
+		"Description" : 
+		["Summon legendary units",
+		"Invoque des unites legendaires",
+		"Invocar unidades legendarias",
+		"Invocar unidades lendarias",
+		"Memanggil unit legendaris",
+		"Efsanevi birimleri cagirin"],
+		"Value" : 4,
+		"Currency" : "Coin",
+		"CurrencyValue" : 1
+		},
+	"Unit_5" : {
+		"Description" : 
+		["Summon mythic units",
+		"Invoque des unites mythiques",
+		"Invocar unidades miticas",
+		"Invocar unidades miticas",
+		"Memanggil unit mitos",
+		"Efsanevi birimleri cagir"],
+		"Value" : 2,
+		"Currency" : "Coin",
+		"CurrencyValue" : 1
+		},
+	"Dice_Roll" : {
+		"Description" : 
+		["Roll dices",
+		"Lance des des",
+		"Rodar dados",
+		"Rolar os dados",
+		"Gulung dadu",
+		"Zarlari yuvarlayin"],
+		"Value" : 10,
+		"Currency" : "Coin",
+		"CurrencyValue" : 1
+		},
+	"Perks_Buy" : {
+		"Description" : 
+		["Buy perks",
+		"Achete des ameliorations",
+		"Comprar mejoras",
+		"Comprar actualizacoes",
+		"Beli peningkatan",
+		"Yukseltmeler satin alin"],
+		"Value" : 5,
+		"Currency" : "Cash",
+		"CurrencyValue" : 100
+		},
+	"Cash_Spend" : {
+		"Description" : 
+		["Spend money",
+		"Depense de l'argent",
+		"Gastar dinero",
+		"Gastar dinheiro",
+		"Menghabiskan uang",
+		"Para harcamak"],
+		"Value" : 1000,
+		"Currency" : "Cash",
+		"CurrencyValue" : 100
+		},
+	"Zombie_Alert" : {
+		"Description" : 
+		["Reach zombie alert",
+		"Atteindre l'alerte de zombies",
+		"Alcanzar la alerta zombi",
+		"Alcancar o alerta zombie",
+		"Mencapai peringatan zombie",
+		"Zombi alarmina ulasma"],
+		"Value" : 1,
+		"Currency" : "Cash",
+		"CurrencyValue" : 100
+		}
+	
+},
+
+"ChallengeList" : ["Login","Play","Open","Upgrade"],
+"ChallengeData" : {
+	
+	"Login" : {
+		"Description" : 
+		["Login to the game",
+		"Connecte toi au jeu",
+		"Iniciar sesion en el juego",
+		"Iniciar sessao no jogo",
+		"Masuk ke dalam permainan",
+		"Oyuna giris yapinn"],
+		"Value" : 1,
+		"Rewards" : [[10],["Key"]]
+		},
+	"Play" : {
+		"Description" : 
+		["Play some games",
+		"Joue plusieurs parties",
+		"Jugar a varios juegos",
+		"Jogar varios jogos",
+		"Mainkan beberapa game",
+		"Birkac oyun oynayin"],
+		"Value" : 3,
+		"Rewards" : [[20],["Key"]]
+		},
+	"Open" : {
+		"Description" : 
+		["Open some chests",
+		"Ouvre des coffres",
+		"Abrir algunos cofres",
+		"Abrir algumas arcas",
+		"Buka beberapa peti",
+		"Bazi sandiklari ac"],
+		"Value" : 3,
+		"Rewards" : [[30],["Key"]]
+		},
+	"Upgrade" : {
+		"Description" : 
+		["Upgrade some heroes",
+		"Ameliore des heros",
+		"Mejora a algunos heroes",
+		"Atualizar alguns herois",
+		"Tingkatkan beberapa pahlawan",
+		"Bazi kahramanlari yukseltin"],
+		"Value" : 2,
+		"Rewards" : [[30],["Gem"]]
+		},
+	"Watch" : {
+		"Description" : 
+		["Watch an ad",
+		"Regarde une pub",
+		"Ver un anuncio",
+		"Ver um anuncio",
+		"Menonton iklan",
+		"Bir reklam izleyin"],
+		"Value" : 1,
+		"Rewards" : [[50],["Gem"]]
+		}
+	
+},
+
+"QuestList" : ["Zombie","Boss","UnitMerge","UnitBuy","Dice","Perks","Unit3","Unit4","Unit5","Challenge","Chest","UnitUpgrade","GemSpend","MedalSpend","CashSpend"],
+"QuestData" : {
+	
+	"Zombie" : {
+		"Description" : 
+		["Kill zombies",
+		"Tue des zombies",
+		"Matar zombis",
+		"Matar zombies",
+		"Membunuh zombie",
+		"Zombileri oldur"],
+		"Value" : [1000,3000,5000,7000,9000,11000,13000,15000,17000,19000,21000,23000,25000,27000,29000,31000,33000,35000,37000,39000,41000,43000,45000,47000,49000,51000,53000,55000,57000,59000,61000,63000,65000,67000,69000,71000,73000,75000,77000,79000,81000,83000,85000,87000,89000,91000,93000,95000,97000,99000,101000,103000,105000,107000,109000,111000,113000,115000,117000,119000,121000,123000,125000,127000,129000,131000,133000,135000,137000,139000,141000,143000,145000,147000,149000,151000,153000,155000,157000,159000,161000,163000,165000,167000,169000,171000,173000,175000,177000,179000,181000,183000,185000,187000,189000,191000,193000,195000,197000,199000],
+		"Rewards" : [[30],["Gem"]]
+		},
+	"Boss" : {
+		"Description" : 
+		["Kill boss zombies",
+		"Tue des zombies boss",
+		"Mata a los zombis jefe",
+		"Matar os zombies chefes",
+		"Bunuh bos zombie",
+		"Patron zombileri oldur"],
+		"Value" : [10,20,30,40,50,60,70,80,90,100,110,120,130,140,150,160,170,180,190,200,210,220,230,240,250,260,270,280,290,300,310,320,330,340,350,360,370,380,390,400,410,420,430,440,450,460,470,480,490,500,510,520,530,540,550,560,570,580,590,600,610,620,630,640,650,660,670,680,690,700,710,720,730,740,750,760,770,780,790,800,810,820,830,840,850,860,870,880,890,900,910,920,930,940,950,960,970,980,990,1000],
+		"Rewards" : [[30],["Gem"]]
+		},
+	"UnitMerge" : {
+		"Description" : 
+		["Merge units",
+		"Fusionne des unites",
+		"Fusionar unidades",
+		"Fundir unidades",
+		"Gabungkan unit",
+		"Birimleri birlestirme"],
+		"Value" : [50,100,150,200,250,300,350,400,450,500,550,600,650,700,750,800,850,900,950,1000,1050,1100,1150,1200,1250,1300,1350,1400,1450,1500,1550,1600,1650,1700,1750,1800,1850,1900,1950,2000,2050,2100,2150,2200,2250,2300,2350,2400,2450,2500,2550,2600,2650,2700,2750,2800,2850,2900,2950,3000,3050,3100,3150,3200,3250,3300,3350,3400,3450,3500,3550,3600,3650,3700,3750,3800,3850,3900,3950,4000,4050,4100,4150,4200,4250,4300,4350,4400,4450,4500,4550,4600,4650,4700,4750,4800,4850,4900,4950,5000],
+		"Rewards" : [[30],["Gem"]]
+		},
+	"UnitBuy" : { 
+		"Description" : 
+		["Buy units",
+		"Achete des unites",
+		"Comprar unidades",
+		"Comprar unidades",
+		"Beli unit",
+		"Birim satin alin"],
+		"Value" : [100,300,500,700,900,1100,1300,1500,1700,1900,2100,2300,2500,2700,2900,3100,3300,3500,3700,3900,4100,4300,4500,4700,4900,5100,5300,5500,5700,5900,6100,6300,6500,6700,6900,7100,7300,7500,7700,7900,8100,8300,8500,8700,8900,9100,9300,9500,9700,9900,10100,10300,10500,10700,10900,11100,11300,11500,11700,11900,12100,12300,12500,12700,12900,13100,13300,13500,13700,13900,14100,14300,14500,14700,14900,15100,15300,15500,15700,15900,16100,16300,16500,16700,16900,17100,17300,17500,17700,17900,18100,18300,18500,18700,18900,19100,19300,19500,19700,19900],
+		"Rewards" : [[30],["Gem"]]
+		},
+	"Dice" : {
+		"Description" : 
+		["Roll dices",
+		"Lance des des",
+		"Rodar dados",
+		"Rolar os dados",
+		"Gulung dadu",
+		"Zarlari yuvarlayin"],
+		"Value" : [20,40,60,80,100,120,140,160,180,200,220,240,260,280,300,320,340,360,380,400,420,440,460,480,500,520,540,560,580,600,620,640,660,680,700,720,740,760,780,800,820,840,860,880,900,920,940,960,980,1000,1020,1040,1060,1080,1100,1120,1140,1160,1180,1200,1220,1240,1260,1280,1300,1320,1340,1360,1380,1400,1420,1440,1460,1480,1500,1520,1540,1560,1580,1600,1620,1640,1660,1680,1700,1720,1740,1760,1780,1800,1820,1840,1860,1880,1900,1920,1940,1960,1980,2000],
+		"Rewards" : [[30],["Gem"]]
+		},
+	"Perks" : {
+		"Description" : 
+		["Buy perks",
+		"Achete des ameliorations",
+		"Comprar mejoras",
+		"Comprar actualizacoes",
+		"Beli peningkatan",
+		"Yukseltmeler satin alin"],
+		"Value" : [10,20,30,40,50,60,70,80,90,100,110,120,130,140,150,160,170,180,190,200,210,220,230,240,250,260,270,280,290,300,310,320,330,340,350,360,370,380,390,400,410,420,430,440,450,460,470,480,490,500,510,520,530,540,550,560,570,580,590,600,610,620,630,640,650,660,670,680,690,700,710,720,730,740,750,760,770,780,790,800,810,820,830,840,850,860,870,880,890,900,910,920,930,940,950,960,970,980,990,1000],
+		"Rewards" : [[30],["Gem"]]
+		},
+	"Unit3" : {
+		"Description" : 
+		["Summon epic units",
+		"Invoque des unites epiques",
+		"Invocar unidades epicas",
+		"Invocar unidades epicas",
+		"Memanggil unit epik",
+		"Destansi birimleri cagirin"],
+		"Value" : [20,40,60,80,100,120,140,160,180,200,220,240,260,280,300,320,340,360,380,400,420,440,460,480,500,520,540,560,580,600,620,640,660,680,700,720,740,760,780,800,820,840,860,880,900,920,940,960,980,1000,1020,1040,1060,1080,1100,1120,1140,1160,1180,1200,1220,1240,1260,1280,1300,1320,1340,1360,1380,1400,1420,1440,1460,1480,1500,1520,1540,1560,1580,1600,1620,1640,1660,1680,1700,1720,1740,1760,1780,1800,1820,1840,1860,1880,1900,1920,1940,1960,1980,2000],
+		"Rewards" : [[30],["Gem"]]
+		},
+	"Unit4" : {
+		"Description" : 
+		["Summon legendary units",
+		"Invoque des unites legendaires",
+		"Invocar unidades legendarias",
+		"Invocar unidades lendarias",
+		"Memanggil unit legendaris",
+		"Efsanevi birimleri cagirin"],
+		"Value" : [5,10,15,20,25,30,35,40,45,50,55,60,65,70,75,80,85,90,95,100,105,110,115,120,125,130,135,140,145,150,155,160,165,170,175,180,185,190,195,200,205,210,215,220,225,230,235,240,245,250,255,260,265,270,275,280,285,290,295,300,305,310,315,320,325,330,335,340,345,350,355,360,365,370,375,380,385,390,395,400,405,410,415,420,425,430,435,440,445,450,455,460,465,470,475,480,485,490,495,500],
+		"Rewards" : [[30],["Gem"]]
+		},
+	"Unit5" : {
+		"Description" : 
+		["Summon mythic units",
+		"Invoque des unites mythiques",
+		"Invocar unidades miticas",
+		"Invocar unidades miticas",
+		"Memanggil unit mitos",
+		"Efsanevi birimleri cagir"],
+		"Value" : [3,6,9,12,15,18,21,24,27,30,33,36,39,42,45,48,51,54,57,60,63,66,69,72,75,78,81,84,87,90,93,96,99,102,105,108,111,114,117,120,123,126,129,132,135,138,141,144,147,150,153,156,159,162,165,168,171,174,177,180,183,186,189,192,195,198,201,204,207,210,213,216,219,222,225,228,231,234,237,240,243,246,249,252,255,258,261,264,267,270,273,276,279,282,285,288,291,294,297,300],
+		"Rewards" : [[30],["Gem"]]
+		},
+	"Challenge" : {
+		"Description" : 
+		["Complete challenges",
+		"Complete des challenges",
+		"Desafios completos",
+		"Completar desafios",
+		"Menyelesaikan tantangan",
+		"Zorluklari tamamlayin"],
+		"Value" : [5,10,15,20,25,30,35,40,45,50,55,60,65,70,75,80,85,90,95,100,105,110,115,120,125,130,135,140,145,150,155,160,165,170,175,180,185,190,195,200,205,210,215,220,225,230,235,240,245,250,255,260,265,270,275,280,285,290,295,300,305,310,315,320,325,330,335,340,345,350,355,360,365,370,375,380,385,390,395,400,405,410,415,420,425,430,435,440,445,450,455,460,465,470,475,480,485,490,495,500],
+		"Rewards" : [[30],["Gem"]]
+		},
+	"Chest" : {
+		"Description" : 
+		["Open chests",
+		"Ouvre des coffres",
+		"Cofres abiertos",
+		"Arcas abertas",
+		"Peti terbuka",
+		"Acik sandiklar"],
+		"Value" : [5,10,15,20,25,30,35,40,45,50,55,60,65,70,75,80,85,90,95,100,105,110,115,120,125,130,135,140,145,150,155,160,165,170,175,180,185,190,195,200,205,210,215,220,225,230,235,240,245,250,255,260,265,270,275,280,285,290,295,300,305,310,315,320,325,330,335,340,345,350,355,360,365,370,375,380,385,390,395,400,405,410,415,420,425,430,435,440,445,450,455,460,465,470,475,480,485,490,495,500],
+		"Rewards" : [[30],["Gem"]]
+		},
+	"UnitUpgrade" : {
+		"Description" : 
+		["Upgrade heroes",
+		"Ameliore des heros",
+		"Mejora a los heroes",
+		"Atualizar herois",
+		"Tingkatkan pahlawan",
+		"Kahramanlari yukseltin"],
+		"Value" : [5,10,15,20,25,30,35,40,45,50,55,60,65,70,75,80,85,90,95,100,105,110,115,120,125,130,135,140,145,150,155,160,165,170,175,180,185,190,195,200,205,210,215,220,225,230,235,240,245,250,255,260,265,270,275,280,285,290,295,300,305,310,315,320,325,330,335,340,345,350,355,360,365,370,375,380,385,390,395,400,405,410,415,420,425,430,435,440,445,450,455,460,465,470,475,480,485,490,495,500],
+		"Rewards" : [[40],["Gem"]]
+		},
+	"GemSpend" : {
+		"Description" : 
+		["Spend gems",
+		"Depense des gemmes",
+		"Gastar gemas",
+		"Gastar pedras preciosas",
+		"Menghabiskan permata",
+		"Mucevherleri harcayin"],
+		"Value" : [500,1000,1500,2000,2500,3000,3500,4000,4500,5000,5500,6000,6500,7000,7500,8000,8500,9000,9500,10000,10500,11000,11500,12000,12500,13000,13500,14000,14500,15000,15500,16000,16500,17000,17500,18000,18500,19000,19500,20000,20500,21000,21500,22000,22500,23000,23500,24000,24500,25000,25500,26000,26500,27000,27500,28000,28500,29000,29500,30000,30500,31000,31500,32000,32500,33000,33500,34000,34500,35000,35500,36000,36500,37000,37500,38000,38500,39000,39500,40000,40500,41000,41500,42000,42500,43000,43500,44000,44500,45000,45500,46000,46500,47000,47500,48000,48500,49000,49500,50000],
+		"Rewards" : [[40],["Gem"]]
+		},
+	"MedalSpend" : {
+		"Description" : 
+		["Spend medals",
+		"Depense des medailles",
+		"Gastar medallas",
+		"Gastar medalhas",
+		"Menghabiskan medali",
+		"Madalya harcayin"],
+		"Value" : [5000,10000,15000,20000,25000,30000,35000,40000,45000,50000,55000,60000,65000,70000,75000,80000,85000,90000,95000,100000,105000,110000,115000,120000,125000,130000,135000,140000,145000,150000,155000,160000,165000,170000,175000,180000,185000,190000,195000,200000,205000,210000,215000,220000,225000,230000,235000,240000,245000,250000,255000,260000,265000,270000,275000,280000,285000,290000,295000,300000,305000,310000,315000,320000,325000,330000,335000,340000,345000,350000,355000,360000,365000,370000,375000,380000,385000,390000,395000,400000,405000,410000,415000,420000,425000,430000,435000,440000,445000,450000,455000,460000,465000,470000,475000,480000,485000,490000,495000,500000],
+		"Rewards" : [[30],["Gem"]]
+		},
+	"CashSpend" : {
+		"Description" : 
+		["Spend money",
+		"Depense de l'argent",
+		"Gastar dinero",
+		"Gastar dinheiro",
+		"Menghabiskan uang",
+		"Para harcamak"],
+		"Value" : [1000,3000,5000,7000,9000,11000,13000,15000,17000,19000,21000,23000,25000,27000,29000,31000,33000,35000,37000,39000,41000,43000,45000,47000,49000,51000,53000,55000,57000,59000,61000,63000,65000,67000,69000,71000,73000,75000,77000,79000,81000,83000,85000,87000,89000,91000,93000,95000,97000,99000,101000,103000,105000,107000,109000,111000,113000,115000,117000,119000,121000,123000,125000,127000,129000,131000,133000,135000,137000,139000,141000,143000,145000,147000,149000,151000,153000,155000,157000,159000,161000,163000,165000,167000,169000,171000,173000,175000,177000,179000,181000,183000,185000,187000,189000,191000,193000,195000,197000,199000],
+		"Rewards" : [[30],["Gem"]]
+		}
+	
+},
+
+"ZombieBossList" : ["Slime","Giant","Scarecrow","Reaper","Cherubin","Angel","Pizzaiolo","Chef"],
+"ZombieEventList" : ["Pirate"],
+"ZombieData" : {
+
+	"Normal" : {
+		"HP" : 200
+		},
+		
+	"Helmet" : {
+		"HP" : 2500
+		},
+		
+	"Poison" : {
+		"HP" : 5000
+		},
+	
+	"Blood" : {
+		"HP" : 10000
+		},
+		
+	"Funeral" : {
+		"HP" : 20000
+		},
+		
+	"Bishop" : {
+		"HP" : 40000
+		},
+	
+	"Waiter" : {
+		"HP" : 60000
+		},
+		
+	"Butcher" : {
+		"HP" : 80000
+		}
+},
+"ZombieBossData" : {
+
+	"Pirate" : {
+		"HP" : 3000
+		},
+
+	"Slime" : {
+		"HP" : 50000
+		},
+		
+	"Giant" : {
+		"HP" : 150000
+		},
+		
+	"Scarecrow" : {
+		"HP" : 350000
+		},
+		
+	"Reaper" : {
+		"HP" : 600000
+		},
+		
+	"Cherubin" : {
+		"HP" : 900000
+		},
+		
+	"Angel" : {
+		"HP" : 1200000
+		},
+		
+	"Pizzaiolo" : {
+		"HP" : 1500000
+		},
+		
+	"Chef" : {
+		"HP" : 2000000
+		}
+},
+
+"ZombieWaveData" : {
+	
+	"Normal" : {
+		"1" : [[1,9],"Normal"],
+		"2" : [[11,19],"Helmet"],
+		"3" : [[21,29],"Poison"],
+		"4" : [[31,39],"Blood"],
+		"5" : [[41,49],"Funeral"],
+		"6" : [[51,59],"Bishop"],
+		"7" : [[61,69],"Waiter"],
+		"8" : [[71,79],"Butcher"]
+	}
+},
+"ZombieWaveBossData" : {
+	
+	"Normal" : {
+		"10" : "Slime",
+		"20" : "Giant",
+		"30" : "Scarecrow",
+		"40" : "Reaper",
+		"50" : "Cherubin",
+		"60" : "Angel",
+		"70" : "Pizzaiolo",
+		"80" : "Chef"
+	}
+},	
+"ZombieWaveBossRewardData" : {
+	"10" : 
+	[[[0,1],[1]]],
+	"20" : 
+	[[[0,1],[1]]],
+	"30" : 
+	[[[0,1],[2]]],
+	"40" : 
+	[[[0,1],[2]]],
+	"50" : 
+	[[[0,1],[3]]],
+	"60" : 
+	[[[0,1],[3]]],
+	"70" : 
+	[[[0,1],[4]]],
+	"80" : 
+	[[[0,1],[4]]]
+},
+
+"DifficultyList" : ["Normal"],
+
+"MapData" : {
+	"Normal" : {
+		"Normal" : {
+			"Wave" : 5,
+			"RewardType" : "Medal",
+			"RewardValue" : 500
+		},
+		"Slime" : {
+			"Wave" : 10,
+			"RewardType" : "Gem",
+			"RewardValue" : 100
+		},
+		"Helmet" : {
+			"Wave" : 15,
+			"RewardType" : "Key",
+			"RewardValue" : 10
+		},
+		"Giant" : {
+			"Wave" : 20,
+			"RewardType" : "Gem",
+			"RewardValue" : 250
+		},
+		"Poison" : {
+			"Wave" : 25,
+			"RewardType" : "Medal",
+			"RewardValue" : 2000
+		},
+		"Scarecrow" : {
+			"Wave" : 30,
+			"RewardType" : "Gem",
+			"RewardValue" : 500
+		},
+		"Blood" : {
+			"Wave" : 35,
+			"RewardType" : "Key",
+			"RewardValue" : 30
+		},
+		"Reaper" : {
+			"Wave" : 40,
+			"RewardType" : "Gem",
+			"RewardValue" : 750
+		},
+		"Funeral" : {
+			"Wave" : 45,
+			"RewardType" : "Medal",
+			"RewardValue" : 5000
+		},
+		"Cherubin" : {
+			"Wave" : 50,
+			"RewardType" : "Gem",
+			"RewardValue" : 1000
+		},
+		"Bishop" : {
+			"Wave" : 55,
+			"RewardType" : "Key",
+			"RewardValue" : 50
+		},
+		"Angel" : {
+			"Wave" : 60,
+			"RewardType" : "Gem",
+			"RewardValue" : 1500
+		},
+		"Waiter" : {
+			"Wave" : 65,
+			"RewardType" : "Medal",
+			"RewardValue" : 20000
+		},
+		"Pizzaiolo" : {
+			"Wave" : 70,
+			"RewardType" : "Gem",
+			"RewardValue" : 2000
+		},
+		"Butcher" : {
+			"Wave" : 75,
+			"RewardType" : "Key",
+			"RewardValue" : 100
+		},
+		"Chef" : {
+			"Wave" : 80,
+			"RewardType" : "Gem",
+			"RewardValue" : 3000
+		}
+	}
+	
+},
+
+"ChestData" : {
+	
+	"Rare" : {
+		"RewardNumber" : 12,
+		"RewardDroprate" : 
+		[[[0,0.4],[0]],
+		[[0.4,0.7],[1]],
+		[[0.7,0.85],[2]],
+		[[0.85,0.95],[3]],
+		[[0.95,1],[4]]]
+	}
+},
+"ChestRewardData" : {
+	
+	"Card" : {
+		"0" : [1,5],
+		"1" : [1,4],
+		"2" : [1,4],
+		"3" : [1,3],
+		"4" : [1,3]
+	},
+	"Resource" : {
+		"Medal" : [500,1000],
+		"Key" : [5,10],
+		"Gem" : [10,30]
+	}
+
+},
+
+"ResourceList" : ["Medal","Key","Gem"],
+"ResourceRecapData" : {
+	"Medal" : [50,100],
+	"Key" : [1,1.5]
+},
+"CurrencyList" : ["Cash","Coin"],
+
+"TutorialList" : ["Unit_Buy","Unit_Move","Unit_Merge","Unit_Fusion","Zombie_Count","Zombie_Timer","Zombie_Event"],
+
+"RarityShop" : 5,
+"RarityItem" : 5,
+"RarityColor" : {
+	"0" : [["#ffffff"],["Common","Commun","Comun","Comum","Umum","Ortak"]],
+	"1" : [["#00c800"],["Uncommon","Peu commun","Uncommon","Incomum","Jarang","Nadir"]],
+	"2" : [["#0096ff"],["Rare","Rare","Raro","Raros","Langka","Seyrek"]],
+	"3" : [["#c800ff"],["Epic","Epique","Epica","Epico","Epik","Epik"]],
+	"4" : [["#ffe100"],["Legendary","Legendaire","Legendario","Lendario","Legendaris","Efsanevi"]],
+	"5" : [["#ff6400"],["Mythic","Mythique","Mitico","Mitico","Mitos","Mitik"]]
+},
+"MergeEffectColor" : [0,0,30,50,85,75],
+
+"CameraShake" : {
+
+	"Small" : 2,
+	"Big" : 4
+	
+},
+
+"MusicList" : ["Music1","Music2"],
+"SoundData" : {
+
+	"Introduction" : -15,
+	"ZombieDeath" : -5,
+	"ZombieBossDeath" : 0,
+	"ZombieHeal" : -30,
+	"ZombieHit" : -10,
+	"BulletKamikaze" : -5,
+	"BulletDrone" : -30,
+	"BulletHunter" : -15,
+	"BulletEngineer" : -20,
+	"BulletPyromaniac" : -15,
+	"BulletMage" : -10,
+	"HeroBuff" : 0,
+	"HeroRevive" : -10,
+	"HeroGrenade" : 0,
+	"HeroMolotov" : 0,
+	"HeroMissile" : 0,
+	"HeroHeadshot" : -5,
+	"HeroCritical" : -10,
+	"ButtonClicked" : -10,
+	"ArrowClicked" : -10,
+	"ItemSpawn" : -30,
+	"ShopPurchased" : -10,
+	"ShopOpened" : 0,
+	"PerksPurchased" : -10,
+	"Music1" : -10,
+	"Music2" : -10,
+	"MusicBoss" : -10,
+	"MusicMenu" : -5,
+	"LevelVictory" : -10,
+	"LevelDefeat" : -10,
+	"ElectricEffect" : -10,
+	"IceEffect" : -10,
+	"DefeatTimer" : 0,
+	"RushAlert" : -10,
+	"WaveAlert" : 0,
+	"ChestOpen" : 0,
+	"ChestReward" : 0,
+	"ResourceCollected" : 0,
+	"GemCollected" : -10,
+	"MedalCollected" : -10
+
+},
+
+"Language" : {
+
+	"en" : 0,
+	"fr" : 1,
+	"es" : 2,
+	"pt" : 3,
+	"id" : 4,
+	"tr" : 5
+	
+},
+"Translation" : {
+
+	"Home" : ["Home","Menu","Menu","Menu","Menu","Menu"],
+	"Play" : ["Play","Jouer","Jugar","Jogar","Bermain","Oyun"],
+	"HUD_CloseButtonText" : ["Close","Fermer","Cerrar","Fechar","Tutup","Kapat"],
+	"Choose" : ["Choose","Choisir","Elija","Selecionar","Memilih","Secin"],
+	"Chosen" : ["Chosen","Choisi","Elegir","Escolher","Dipilih","Seciniz"],
+	"Perks" : ["Perks","Bonus","Bono","Bonus","Bonus","Bonus"],
+	"Shop" : ["Shop","Magasin","Tienda","Loja","Belanja","Alisveris"],
+	"Pact" : ["Pact","Pacte","Pacto","Pacto","Pakta","Pakt"],
+	"Score" : ["Score","Score","Score","Score","Score","Skor"],
+	"ScoreCurrent" : ["Current","Actuel","Actual","Atual","Saat ini","Guncel"],
+	"ScoreBest" : ["Best","Meilleur","Mejor","Melhor","Terbaik","En iyisi"],
+	"Pause" : ["Pause","Pause","Pausa","Pausa","Jeda","Duraklat"],
+	"Settings" : ["Settings","Reglage","Ajustes","Definicoes","Pengaturan","Ayarlar"],
+	"Language" : ["Language","Langue","Idioma","Lingua","Bahasa","Dil"],
+	"Sound" : ["Sound","Son","Sonido","Som","Suara","Ses"],
+	"Hero" : ["Hero","Hero","Heroe","Heroi","Pahlawanp","Kahramank"],
+	"Skin" : ["Skin","Costume","Vestuario","Traje","Kostum","Kostum"],
+	"Inventory" : ["Inventory","Inventaire","Inventario","Inventario","Persediaan","Envanter"],
+	"Bag" : ["Bag","Sac","Bolsa","Saco","Tas","Canta"],
+	"Chest" : ["Chest","Coffre","Cofre","Bau","Aman","Guvenli"],
+	"Player" : ["Player","Joueur","Jugador","Jogador","Pemain","Oyuncu"],
+	"Difficulty" : ["Difficulty","Difficulte","Dificultad","Dificuldade","Kesulitan","Zorluk"],
+	"Easy" : ["Easy","Facile","Facil","Facil","Mudah","Kolay"],
+	"Normal" : ["Normal","Normal","Normal","Normal","Normal","Normal"],
+	"Hard" : ["Hard","Difficile","Duro","Dificil","Keras","Sert"],
+	"Mode" : ["Mode","Mode","Modo","Modo","Mode","Mod"],
+	"Challenge" : ["Challenge","Defi","Desafio","Desafio","Tantangan","Mucadele"],
+	"Quest" : ["Quest","Quete","Busqueda","Busca","Pencarian","Gorev"],
+	"Map" : ["Map","Carte","Mapa","Mapa","Peta","Harita"],
+	"Summary" : ["Summary","Resume","Resumen","Resumo","Ikhtisar","Ozet"],
+	"Defeat" : ["Defeat","Defaite","Derrota","Derrota","Kekalahan","Yenilgi"],
+	"Victory" : ["Victory","Victoire","Victoria","Vitoria","Kemenangan","Zafer"],
+	"Death" : ["Death","Mort","Muerte","Morte","Kematian","Olum"],
+	"HP" : ["Health","Vie","Salud","Saude","Kesehatan","Saglik"],
+	"Damage" : ["Damage","Degats","Danos","Dano","Kerusakan","Hasar"],
+	"Barrel" : ["Barrel","Baril","Barril","Barril","Laras","Varil"],
+	"Barrier" : ["Barrier","Barriere","Barrera","Barreira","Penghalang","Bariyer"],
+	"Tesla" : ["Tesla","Tesla","Tesla","Tesla","Tesla","Tesla"],
+	"Drone" : ["Drone","Drone","Drone","Drone","Drone","Drone"],
+	"Turret" : ["Turret","Tourelle","Torreta","Torreta","Menara","Taret"],
+	"Molotov" : ["Molotov","Molotov","Molotov","Molotov","Molotov","Molotof"],
+	"Grenade" : ["Grenade","Grenade","Granada","Granada","Granat","Bomba"],
+	"Mine" : ["Mine","Mine","Mina","Mina","Tambang","Maden"],
+	"Beartrap" : ["Beartrap","Piege","Trampa","Armadilha","Perangkap","Tuzak"],
+	"Missile" : ["Missile","Missile","Misil","Missil","Rudal","Fuze"],
+	"Campfire" : ["Campfire","Feu","Fogata","Fogueira","Api unggun","Kamp Atesi"],
+	"Magnet" : ["Magnet","Aimant","Iman","Iman","Magnet","Miknatis"],
+	"Saw" : ["Saw","Scie","Sierra","Serra","Melihat","Testere"],
+	"Firerate" : ["Firerate","Vitesse","Velocidad","Velocidade","Kecepatan","Hiz"],
+	"Hitrate" : ["Hitrate","Vitesse d'attaque","Velocidad de ataque","Velocidade de ataque","Kecepatan serangan","Saldiri hizi"],
+	"Range" : ["Range","Portee","Alcance","Alcance","Jangkauan","Menzil"],
+	"Speed" : ["Speed","Vitesse","Velocidad","Velocidade","Kecepatan","Hiz"],
+	"Reload" : ["Reload","Recharge","Recarga","Recarga","Muat Ulang","Yeniden Yukle"],
+	"Frequency" : ["Frequency","Frequence","Frecuencia","Frequencia","Frekuensi","Frekans"],
+	"Duration" : ["Duration","Duree","Duracion","Duracao","Durasi","Sure"],
+	"Health" : ["Health","Vie","Salud","Saude","Kesehatan","Saglik"],
+	"Critical" : ["Critical","Critique","Critico","Critico","Kritis","Kritik"],
+	"Headshot" : ["Headshot","Tir dans la tete","Disparo a la cabeza","Tiro na cabeca","Tembakan di kepala","Kafa vurusu"],
+	"Multishot" : ["Multishot","Tir multiple","Tiro multiple","Disparo multiplo","Beberapa pemotretan","Coklu cekim"],
+	"Piercing" : ["Piercing","Penetration","Perforacion","Perfuracao","Menusuk","Penetrasyon"],
+	"Bounce" : ["Bounce","Rebond","Rebote","Ressalto","Memantul","Sicrama"],
+	"Electric" : ["Electric","Electrique","Electrico","Eletrico","Listrik","Elektrik"],
+	"Rage" : ["Rage","Rage","Furia","Raiva","Kemarahan","Ofke"],
+	"Explosive" : ["Explosive","Explosif","Explosivo","Explosivo","Meledak","Patlayici"],
+	"Endurance" : ["Endurance","Endurance","Resistencia","Resistencia","Daya tahan","Dayaniklilik"],
+	"Regen" : ["Regen","Regeneration","Regeneracion","Regeneracao","Regenerasi","Rejenerasyon"],
+	"Vampire" : ["Vampire","Vampire","Vampiro","Vampiro","Vampir","Vampir"],
+	"Gem" : ["Gem","Gemme","Gema","Gema","Permata","Mucevher"],
+	"Burn" : ["Burn","Brulure","Quemar","Queimar","Membakar","Yanmak"],
+	"Wave" : ["Wave","Vague","Onda","Onda","Gelombang","Dalga"],
+	"Stunned" : ["Stunned","Etourdi","Noqueado","Nocauteado","Pingsan","Bayiltildi"],
+	"Unit_Buy" : 
+	["Buy a unit to defend against zombie waves",
+	"Achete une unite pour te defendre des vagues de zombie",
+	"Compra una unidad para defenderte de las oleadas de zombis",
+	"Comprar uma unidade para se defender das vagas de zombies",
+	"Beli unit untuk bertahan dari gelombang zombie",
+	"Zombi dalgalarina karsi savunmak icin bir birim satin alin"],
+	"Unit_Move" : 
+	["Your unit attacks automatically and you can move it on the grid",
+	"Ton unite attaque automatiquement et tu peux la deplacer sur la grille",
+	"Tu unidad ataca automaticamente y puedes moverla por la cuadricula",
+	"A sua unidade ataca automaticamente e pode desloca-la na grelha",
+	"Unit Anda menyerang secara otomatis dan Anda dapat memindahkannya di grid",
+	"Biriminiz otomatik olarak saldirir ve onu izgara uzerinde hareket ettirebilirsiniz"],
+	"Unit_Merge" : 
+	["You can merge 2 identical units to get a better one",
+	"Tu peux fusionner deux memes unites pour en avoir une meilleure",
+	"Puedes fusionar 2 unidades identicas para obtener una mejor",
+	"E possivel fundir duas unidades identicas para obter uma melhor",
+	"Anda dapat menggabungkan 2 unit yang sama untuk mendapatkan unit yang lebih baik",
+	"Daha iyi bir tane elde etmek icin 2 ayni birimi birlestirebilirsiniz"],
+	"Unit_Fusion" : 
+	["You can create a mythical unit by combining specific units",
+	"Tu peux obtenir une unite mythique en fusionnant des unites specifiques",
+	"Puedes crear una unidad mitica combinando unidades especificas",
+	"E possivel criar uma unidade mitica combinando unidades especificas",
+	"Anda dapat membuat unit mitos dengan menggabungkan unit tertentu",
+	"Belirli birimleri birlestirerek efsanevi bir birim olusturabilirsiniz"],
+	"Zombie_Count" : 
+	["You lose the game if you reach the zombie limit",
+	"Tu perds la partie si tu atteins la limite de zombie",
+	"Pierdes la partida si alcanzas el limite de zombis",
+	"Perde o jogo se atingir o limite de zombies",
+	"Anda akan kalah dalam permainan jika Anda mencapai batas zombie",
+	"Eger zombi sinirina ulasirsaniz oyunu kaybedersiniz"],
+	"Zombie_Timer" : 
+	["You lose the game if you don't kill the boss before the time limit",
+	"Tu perds la partie si tu ne tues pas le boss avant la limite de temps",
+	"Pierdes la partida si no matas al jefe antes del tiempo limite",
+	"Perdes o jogo se nao matares o chefe antes do tempo limite",
+	"Anda kalah dalam permainan jika Anda tidak membunuh bos sebelum batas waktu",
+	"Zaman sinirindan once patronu olduremezseniz oyunu kaybedersiniz"],
+	"Zombie_Event" : 
+	["You earn coins if you kill the zombie before the time limit",
+	"Tu gagnes des pieces si tu tues le zombie avant la limite de temps",
+	"Ganas monedas si matas al zombi antes del limite de tiempo",
+	"Ganha moedas se matar o zombie antes do tempo limite",
+	"Anda mendapatkan koin jika Anda membunuh zombie sebelum batas waktu",
+	"Zaman sinirindan once zombiyi oldururseniz para kazanirsiniz"],
+	"Skip" : ["Skip","Passer","Saltar","Saltar","Lewati","Atla"],
+	"ShopEmpty" : 
+	["This is empty, you have already taken all the items!",
+	"C'est vide, tu as deja tout selectionne!",
+	"Esto esta vacio, ¡ya te has llevado todos los objetos!",
+	"Isto esta vazio, ja levaram todos os objectos!",
+	"Ini kosong, Anda telah mengambil semua item!",
+	"Bu bos, zaten tum esyalari aldiniz!"],
+	"Or" : ["Or","Ou","O","Ou","Atau","Veya"],
+	"Heal" : ["Heal","Soin","Cura","Curar","Perawatan","Bakim"],
+	"Rate" : ["Rate","Chance","Chance","Chance","Chance","Sans"],
+	"Antidote" : ["Antidote","Antidote","Antidoto","Antidoto","Penangkal","Panzehir"],
+	"Protection" : ["Protection","Protection","Proteccion","Protecao","Perlindungan","Koruma"],
+	"World" : ["World","Monde","Mundo","Mundo","Dunia","Dunya"],
+	"WorldLocked" : ["Finish world","Finir monde","Termina mundo","Terminar mundo","Selesaikan dunia","Dunyayi bitir"],
+	"Equip" : ["Equip","Equiper","Equipar","Equipar","Melengkapi","Ekipman"],
+	"Remove" : ["Remove","Retirer","Eliminar","Remover","Menghapus","Kaldirmak"],
+	"Boost" : ["Boost","Booster","Aumentar","Impulso","Tingkatkan","Yukseltme"],
+	"Open" : ["Open","Ouvrir","Abrir","Aberto","Buka","Acik"],
+	"Maximum" : ["Maximum","Maximum","Maximo","Maximo","Maksimum","Maksimum"],
+	"Adventure" : ["Adventure","Aventure","Aventura","Aventura","Petualangan","Macera"],
+	"Defense" : ["Defense","Defense","Defensa","Defesa","Pertahanan","Savunma"],
+	"Deck" : ["Deck","Deck","Deck","Deck","Deck","Deck"],
+	"DeckInfo" : ["Choose cards","Choisis des cartes","Elegir tarjetas","Escolher cartoes","Pilih kartu","Kartlari secin"],
+	"Zombie" : ["Zombie","Zombie","Zombie","Zombie","Zombie","Zombi"],
+	"Resource" : ["Resource","Ressource","Recursos","Recursos","Sumberdaya","Kaynak"],
+	"RV_Perks" : ["Take all","Avoir tout","Toma todo","Tomar tudo","Ambil","Hepsini al"],
+	"RV_Shop" : ["Take all","Avoir tout","Toma todo","Tomar tudo","Ambil","Hepsini al"],
+	"RV_Revive" : ["Revive","Revivre","Revivir","Reviver","Bangkit","Diriltmek"],
+	"RV_Hero" : ["Buy","Acheter","Comprar","Comprar","Membeli","Satin Al"],
+	"RV_Mission" : ["Rotate","Changer","Cambia","Alterar","Perubahan","Degisim"],
+	"RV_Chest" : ["Open","Ouvrir","Abrir","Aberto","Buka","Acik"],
+	"RV_Card" : ["Take all","Avoir tout","Toma todo","Tomar tudo","Ambil","Hepsini al"],
+	"RV_Resource" : ["Claim x2","Reclamer x2","Solicitar x2","Reclamar x2","Klaim x2","Talep x2"],
+	"Craft" : ["Craft","Fabrique","Fabrica","Fabrica","Pabrik","Fabrika"],
+	"Merge" : ["Merge","Fusion","Fusion","Fundir","Gabung","Birlestir"],
+	"Forge" : ["Forge","Forge","Forja","Forja","Menempa","Forge"],
+	"Mastery" : ["Mastery","Maitrise","Maestria","Mestria","Menguasai","Ustalik"],
+	"PVE" : ["PVE","PVE","PVE","PVE","PVE","PVE"],
+	"PVP" : ["PVP","PVP","PVP","PVP","PVP","PVP"],
+	"Wood" : ["Wood","Bois","Madera","Madeira","Kayu","Ahsap"],
+	"Medal" : ["Medal","Medaille","Medalla","Medalha","Medali","Madalya"],
+	"Key" : ["Key","Clef","Clave","Chave","Kunci","Anahtar"],
+	"Metal" : ["Metal","Metal","Metal","Metal","Logam","Metal"],
+	"Fire" : ["Fire","Feu","Fuego","Fogo","Api","Yangin"],
+	"Energy" : ["Energy","Energie","Energia","Energia","Energi","Enerji"],
+	"ChestInfo" : ["items with rarity of","objet de rarete","objetos con rareza","objectos de raridade","benda langka","nadir nesne"],
+	"Common" : ["Common","Commun","Comun","Comum","Umum","Ortak"],
+	"Uncommon" : ["Normal","Normal","Normal","Normal","Normal","Normal"],
+	"Rare" : ["Rare","Rare","Raro","Raro","Langka","Nadir"],
+	"Rotation" : ["Rotation","Rotation","Rotacion","Rotacao","Rotasi","Rotasyon"],
+	"Level" : ["Level","Niveau","Nivel","Nivel","Tingkat","Seviye"],
+	"Arrow" : ["Arrow","Fleche","Flecha","Seta","Panah","Ok"],
+	"Full" : ["Full","Plein","Completo","Completo","Penuh","Tam"],
+	"Unit" : ["Unit","Unite","Unidad","Unidade","Unit","Birim"],
+	"Card" : ["Card","Carte","Carta","Carta","Kartu","Kart"],
+	"Reward" : ["Reward","Recompense","Recompensa","Recompensa","Penghargaan","Odul"],
+	"Power" : ["Power","Puissance","Potencia","Potencia","Daya","Guc"],
+	"Transform" : ["Transform","Transformer","Transforme","Transformar","Mengubah","Donusum"],
+	"WarningZombie" : 
+	["Warning, too many zombies!",
+	"Attention, trop de zombies!",
+	"Advertencia, demasiados zombis!",
+	"Atencao, demasiados zombies!",
+	"Peringatan, terlalu banyak zombie!",
+	"Uyari, cok fazla zombi var!"],
+	"WarningTimer" : 
+	["Warning, kill the boss!",
+	"Attention, tue le boss!",
+	"Atencion, mata al jefe!",
+	"Atencao, matem o chefe!",
+	"Peringatan, bunuh bosnya!",
+	"Uyari, patronu oldurun!"],
+	"Buy" : ["Buy","Acheter","Comprar","Comprar","Beli","Satin Al"],
+	"Summon" : ["Summon","Invoquer","Invocar","Invocar","Panggil","Cagirmak"],
+	"Recipe" : ["Recipe","Recette","Receta","Receita","Resep","Tarif"],
+	"NoRecipe" : ["no mythic","aucun mythique","no mitico","nao mitico","tidak ada mitos","efsanevi yok"],
+	"Material" : ["Material","Materiel","Material","Material","Peralatan","Malzeme"],
+	"Best" : ["Best","Meilleur","Mejor","Melhor","Terbaik","En iyisi"]
+	
+	
+	
+}
+	
+}
