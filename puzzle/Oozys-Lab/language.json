@@ -1,0 +1,62 @@
+{
+	"en": {
+		"level": "Level",
+		"world": "World",
+		"move": "Move",
+		"jump": "Jump",
+		"restart": "Reset",
+		"ask_restart": "Reset?",
+		"test_thanks": "Thank you for testing so far. More coming soon :)",
+		"congratulate": "Well done!|Nice!|Good job!"
+	},
+	"fr": {
+		"level": "Niveau",
+		"world": "Monde",
+		"move": "Déplacer",
+		"jump": "Sauter",
+		"restart": "Réinitialiser",
+		"ask_restart": "Réinitialiser ?",
+		"test_thanks": "Merci d'avoir testé jusqu'ici. La suite arrive bientôt :)",
+		"congratulate": "Bien joué !|Super !|Bon travail !"
+	},
+	"it": {
+		"level": "Livello",
+		"world": "Mondo",
+		"move": "Muovi",
+		"jump": "Salta",
+		"restart": "Reset",
+		"ask_restart": "Reset",
+		"test_thanks": "Grazie per aver testato finora. Altro in arrivo presto :)",
+		"congratulate": "Ben fatto!|Ottimo!|Bel lavoro!"
+	},
+	"de": {
+		"level": "Level",
+		"world": "Welt",
+		"move": "Bewegen",
+		"jump": "Springen",
+		"restart": "Neustart",
+		"ask_restart": "Neustart?",
+		"test_thanks": "Danke fürs Testen bisher. Bald kommt mehr :)",
+		"congratulate": "Gut gemacht!|Super!|Tolle Leistung!"
+	},
+	"es": {
+		"level": "Nivel",
+		"world": "Mundo",
+		"move": "Mover",
+		"jump": "Saltar",
+		"restart": "Reiniciar",
+		"ask_restart": "¿Reiniciar?",
+		"test_thanks": "Gracias por probar hasta ahora. Más contenido pronto :)",
+		"congratulate": "¡Bien hecho!|¡Genial!|¡Buen trabajo!"
+	},
+	"tr": {
+		"level": "Seviye",
+		"world": "Dünya",
+		"move": "Hareket",
+		"jump": "Zıpla",
+		"restart": "Sıfırla",
+		"ask_restart": "Sıfırla?",
+		"test_thanks": "Şimdiye kadar test ettiğin için teşekkürler. Daha fazlası yakında :)",
+		"congratulate": "Aferin!|Harika!|İyi iş!"
+	}
+}

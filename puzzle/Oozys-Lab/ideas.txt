@@ -1,0 +1,23 @@
+lvl 6 - rolling solids
+lvl 9 - sine platforms
+lvl 12 - ball level
+lvl 18 - saw stuff (circling saw level)
+lvl 21 - saw follow
+lvl 22 - reverse gravity
+lvl 23 - slide
+lvl 24 - invisible
+lvl 26 - moon gravity
+lvl 27 - fling platforms
+lvl 28 - screen wrap
+lvl 29 - elevator
+
+
+ball level 3
+sine platforms 2
+saw stuff 2
+something shapestuff 2
+reverse gravity + slide (as in first game)
+invisible + reverse gravity/moon gravity
+reverse gravity + moon gravity
+slide + moon gravity
+screenwrap 2
